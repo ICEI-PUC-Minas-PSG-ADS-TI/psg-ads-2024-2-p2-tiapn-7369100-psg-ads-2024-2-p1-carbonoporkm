@@ -151,10 +151,10 @@ A solução está diretamente alinhada com as estratégias de promover sustentab
 
 # 3.3. Desenho dos Processos (TO BE)
 
-[PROCESSO 1 - Registro da Conta](./processos/processo-1-Registro-da-Conta.md "Descrição do Processo.")<br>
-[PROCESSO 2 - Cálculo da Pegada de Carbono sem Login](./processos/processo-2-Cálculo-da-Pegada-de-Carbono-sem-Login.md "Detalhamento do Processo 2.")<br>
-[PROCESSO 3 - Cálculo da Pegada de Carbono com Login](./processos/processo-3-Cálculo-da-Pegada-de-Carbono-com-Login.md "Detalhamento do Processo 3.")<br>
-[PROCESSO 4 - Fornecimento de Sugestões Sustentáveis](./processos/processo-4-Fornecimento-de-Sugestões-Sustentáveis.md "Detalhamento do Processo 4.")<br>
-[PROCESSO 5 - Fornecimento de Sugestões Sustentáveis ​​com Login](./processos/processo-5-Fornecimento-de-Sugestões-Sustentáveis-com-Login.md "Detalhamento do Processo 5.")<br>
-[PROCESSO 6 - Doação para Compensação de Emissões em Login](./processos/processo-6-Doação-para-Compensação-de-Emissões-(Sem-Login) "Detalhamento do Processo 6.")<br>
-[PROCESSO 7 - Doação para Compensação de Emissões com Login](./processos/processo-7-Doação-para-Compensação-de-Emissões-com-Login.md "Detalhamento do Processo 7.")<br>
+[PROCESSO 1 - Registro da Conta](./processos/processo-1-Registro-da-Conta.md "O usuário acessa a página de registro e insere suas informações pessoais, como nome, e-mail e senha. Após a verificação dos dados, o sistema cria uma conta única para o usuário, permitindo que ele acesse funcionalidades exclusivas, como o cálculo personalizado da pegada de carbono e a possibilidade de salvar e verificar os resultados.")<br>
+[PROCESSO 2 - Cálculo da Pegada de Carbono sem Login](./processos/processo-2-Cálculo-da-Pegada-de-Carbono-sem-Login.md "Usuários não registrados podem acessar a funcionalidade básica de cálculo da pegada de carbono.")<br>
+[PROCESSO 3 - Cálculo da Pegada de Carbono com Login](./processos/processo-3-Cálculo-da-Pegada-de-Carbono-com-Login.md "Os usuários logados podem realizar o cálculo de sua pegada de carbono de maneira personalizada. Os dados inseridos são armazenados para permitir futuras pesquisas e comparação de resultados ao longo do tempo.")<br>
+[PROCESSO 4 - Fornecimento de Sugestões Sustentáveis](./processos/processo-4-Fornecimento-de-Sugestões-Sustentáveis.md "Após o projeto da pegada de carbono, o sistema oferece sugestões de práticas sustentáveis ​​para reduzir as emissões. Essas sugestões são fundamentadas no tipo de transporte utilizado pelo usuário e nas distâncias percorridas.")<br>
+[PROCESSO 5 - Fornecimento de Sugestões Sustentáveis ​​com Login](./processos/processo-5-Fornecimento-de-Sugestões-Sustentáveis-com-Login.md "Usuários logados recebem sugestões sugestivas personalizadas, baseadas no histórico de cálculos de pegada de carbono, podendo salvar as sugestões para análise posterior.")<br>
+[PROCESSO 6 - Doação para Compensação de Emissões em Login](./processos/processo-6-Doação-para-Compensação-de-Emissões-(Sem-Login).md "Usuários não registrados podem acessar a opção de fazer, mas o site os redireciona para sites externos de organizações de caridade ambiental..")<br>
+[PROCESSO 7 - Doação para Compensação de Emissões com Login](./processos/processo-7-Doacao-para-Compensacao-de-Emissoes-com-Login.md "Usuários logados podem realizar ações diretamente pela plataforma, que registram a doação em nome do usuário e fornecem relatórios de impacto.")<br>
