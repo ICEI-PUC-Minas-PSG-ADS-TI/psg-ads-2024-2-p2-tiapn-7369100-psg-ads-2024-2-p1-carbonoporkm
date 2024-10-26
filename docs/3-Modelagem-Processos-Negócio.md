@@ -23,6 +23,7 @@ Saída: Valor doado a uma organização ambiental.
 Participantes: Usuário Geral, Organizações de Caridade Ambiental.
 Produto de Informação: Confirmação de doação e certificado de compensação.
 Local: Plataforma de doações no site.
+
 1.2 Processos de Suporte/Apoio:
 Estes processos dão suporte à operação e ao bom funcionamento da plataforma.
 Manutenção de Dados Geoespaciais (Entrada: Endereços do Usuário / Saída: Coordenadas)
@@ -37,6 +38,7 @@ Saída: Exibição responsiva e ajustável, facilitada pelo Bootstrap.
 Participantes: Desenvolvedores e usuários.
 Produto de Informação: Interface amigável e responsiva.
 Local: Front-end do site.
+
 1.3 Processos Gerenciais:
 Estes processos envolvem a tomada de decisões e o monitoramento das operações do sistema.
 Monitoramento de Dados de Usuário e Impacto Ambiental (Entrada: Dados de Usuários / Saída: Relatórios de Impacto)
@@ -52,6 +54,7 @@ Participantes: Administradores do conteúdo, equipe de pesquisa.
 Produto de Informação: Conteúdo atualizado e relevante.
 Local: Back-end do site.
 
+
 3. Entradas e Saídas dos Processos
 Cálculo de Pegada de Carbono:
 Entrada: Distância percorrida, tipo de veículo.
@@ -62,11 +65,14 @@ Saída: Recomendações personalizadas.
 Doações:
 Entrada: Pegada de carbono calculada.
 Saída: Certificado de compensação.
-4. Participantes
+
+
+5. Participantes
 Usuário Geral: Insere dados de viagem e recebe sugestões.
 Organizações de Caridade Ambiental: Recebem doações e promovem seus projetos.
 Desenvolvedores: Implementam APIs e ajustam a interface.
 Administradores: Monitoram o uso da plataforma e atualizam as informações.
+
 
 3.1. Modelagem da situação atual (Modelagem AS IS)
 Cenário Atual e Problemas
@@ -78,28 +84,41 @@ Obtenção de sugestões : Após o design, o usuário precisa procurar manualmen
 Doações para Compensação : Caso deseje compensar suas emissões, o usuário precisa buscar organizações ambientais, realizar ações externas, e acompanhar todo o processo manualmente.
 Modelagem do Estado Atual (AS-IS) - BPMN: 
 Início: O usuário inicia a busca por informações.
+
 Passo 1: Coleta de Dados: O usuário busca informações sobre a distância percorrida e o tipo de veículo utilizado.
+
 Passo 2: Consulta de Emissão por Veículo: O usuário consulta manualmente sites ou referências públicas para obter taxas de emissão.
+
 Passo 3: Cálculo da Pegada de Carbono: O usuário realiza o cálculo da pegada de carbono, utilizando uma fórmula simples: distância x taxa de emissão.
+
 Passo 4: Análise dos Resultados: O usuário compara os resultados obtidos com benchmarks de emissões para entender o impacto.
+
 Passo 5: Sugestões Sustentáveis:O usuário busca manualmente por soluções de sustentabilidade em fontes externas, como sites ou blogs.
+
 Passo 6: Fazer doação: selecionar uma instituição pesquisada e fazer uma doação para ela
+
 Fim: O usuário finaliza o processo com as informações de sua pegada de carbono e possíveis soluções sustentáveis.
 
 
 
 Problemas Identificados:
 Ineficiência : As várias idas e vindas entre diferentes fontes para calcular a pegada de carbono tornam o processo moroso e pouco eficiente.
+
 Erros Manuais : O uso de cálculos manuais e a coleta descentralizada de dados levam a uma alta probabilidade de erros.
+
 Falta de Personalização : O sistema atual não oferece recomendações personalizadas para o usuário, dificultando a adoção de práticas de transporte mais sustentáveis.
+
 Baixa Conscientização : Sem uma ferramenta centralizada, muitos usuários acabam não entendendo totalmente o impacto ambiental de suas atividades diárias, como o transporte.
 
 3.2. Análise dos processos
-Cenário Atual e Seus Problemas
+Cenário Atual e Seus Problemas:
+
 Atualmente, grande parte dos indivíduos que utilizam transporte não tem consciência de sua pegada de carbono. Embora existam iniciativas de conscientização ambiental, o cálculo de emissões de CO₂ é frequentemente um processo manual, complexo e inacessível para o público geral. O usuário que deseja entender seu impacto ambiental muitas vezes enfrenta barreiras como:
 Falta de Ferramentas Acessíveis: Não há ferramentas fáceis de usar que permitam o cálculo automático de emissões de carbono com base nas viagens diárias.
 Processos Ineficientes: O cálculo manual da pegada de carbono requer conhecimento técnico sobre emissões de veículos e distâncias percorridas, resultando em erros frequentes e retrabalho.
+
 Desconhecimento de Alternativas Sustentáveis: Sem uma plataforma que ofereça sugestões práticas, muitos continuam com hábitos insustentáveis sem entender como poderiam mudar.
+
 Baixa Participação em Compensações Ambientais: Processos manuais dificultam a compensação de emissões por meio de doações a projetos ambientais, afastando os usuários da ação proativa.
 
 Potenciais Ganhos com a Automatização
