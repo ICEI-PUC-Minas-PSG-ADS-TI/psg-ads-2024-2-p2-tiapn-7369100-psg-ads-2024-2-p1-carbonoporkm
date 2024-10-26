@@ -1,7 +1,9 @@
 3. Modelagem do Processo de Negócio
 
 1. Descrição Macro dos Processos do Site CarbonoPorKM
+
 1.1 Processos Primários:
+
 Estes processos estão diretamente relacionados à proposta central do site, que é o cálculo e a conscientização sobre a pegada de carbono.
 Cálculo da Pegada de Carbono (Entrada: Dados de Transporte / Saída: Pegada de Carbono)
 Entrada: Informações sobre a distância percorrida, tipo de veículo utilizado, número de viagens.
@@ -50,7 +52,7 @@ Participantes: Administradores do conteúdo, equipe de pesquisa.
 Produto de Informação: Conteúdo atualizado e relevante.
 Local: Back-end do site.
 
-2. Entradas e Saídas dos Processos
+3. Entradas e Saídas dos Processos
 Cálculo de Pegada de Carbono:
 Entrada: Distância percorrida, tipo de veículo.
 Saída: Valor da pegada de carbono (kg CO₂/km).
@@ -60,7 +62,7 @@ Saída: Recomendações personalizadas.
 Doações:
 Entrada: Pegada de carbono calculada.
 Saída: Certificado de compensação.
-3. Participantes
+4. Participantes
 Usuário Geral: Insere dados de viagem e recebe sugestões.
 Organizações de Caridade Ambiental: Recebem doações e promovem seus projetos.
 Desenvolvedores: Implementam APIs e ajustam a interface.
