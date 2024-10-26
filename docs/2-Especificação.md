@@ -1,10 +1,10 @@
-# Especificações do Projeto
+# 2. Especificações do Projeto
 
 As emissões de dióxido de carbono (CO₂) têm sido uma das principais preocupações ambientais globais, contribuindo significativamente para as mudanças climáticas. O setor de transporte, especialmente o transporte rodoviário, é um dos maiores emissores de CO₂, representando cerca de 24% das emissões globais relacionadas à energia em 2023, conforme relatado pela Agência Internacional de Energia (IEA) no site "ourworldindata.org”. Com a crescente urbanização e a dependência de veículos movidos a combustíveis fósseis, as emissões do transporte rodoviário continuam a aumentar, exacerbando os desafios para cumprir a meta de limitação do aquecimento global a 1,5°C, conforme o Acordo de Paris.
 Neste contexto, a ferramenta do site CarbonoPorKM surge como um recurso que permite aos usuários calcular sua pegada de carbono específica para o transporte rodoviário, com base nas distâncias percorridas diariamente. Este tipo de ferramenta é crucial, pois promove maior conscientização individual sobre o impacto ambiental das atividades cotidianas e incentiva a adoção de práticas mais sustentáveis, mitigando as emissões de CO₂ provenientes do setor de transportes.
 
 
-## Personas
+## 2.1 Personas
 
 1. Pedro Paulo - O Jovem Profissional Consciente
 
@@ -37,7 +37,7 @@ Profissão : Estudante de Biologia e voluntário em ONGs de proteção ambiental
 Objetivo : Aprender mais sobre o impacto do transporte na emissão de CO₂ e aplicar esse conhecimento em projetos de conscientização.
 Comportamento : Júlia está extremamente preocupada com o meio ambiente e dedica parte de seu tempo a campanhas de conscientização sobre as mudanças climáticas. Ela anda de bicicleta ou usa transporte público para se locomover, mas gostaria de saber como pequenas alterações nos hábitos de transporte podem ajudar a reduzir a pegada de carbono. Júlia usa a internet para acessar conteúdos e plataformas que promovam práticas sustentáveis.
 Necessidades no CarbonoPorKM : Júlia busca uma ferramenta que permita calcular o impacto de suas escolhas de transporte, além de fornecer dados e insights que possam compartilhar em campanhas de conscientização junto a ONGs e comunidades locais.
-## Histórias de Usuários
+## 2.2 Histórias de Usuários
 
 ## Contexto: Recomendações e Sugestões Sustentáveis
 
@@ -66,11 +66,11 @@ Necessidades no CarbonoPorKM : Júlia busca uma ferramenta que permita calcular 
 | Empreendedor Verde            | Configurar o perfil corporativo     
 
 
-## Requisitos
+## 2.3 Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
-### Requisitos Funcionais
+### 2.3.1 Requisitos Funcionais
 
 | ID      | Descrição do Requisito                                                                                           | Prioridade |
 |---------|------------------------------------------------------------------------------------------------------------------|------------|
@@ -85,7 +85,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-009  | Exibir gráficos e estatísticas de pegada de carbono para facilitar a compreensão dos dados                       | MÉDIA      |
 | RF-010  | Oferecer suporte para múltiplos idiomas                                                                          | BAIXA      |
 
-## Requisitos Não Funcionais
+### 2.3.2 Requisitos Não Funcionais
 
 | ID      | Descrição do Requisito                                                                            | Prioridade |
 |---------|---------------------------------------------------------------------------------------------------|------------|
@@ -97,7 +97,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 
-## Restrições do Projeto
+## 2.4 Restrições do Projeto
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
