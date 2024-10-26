@@ -108,7 +108,7 @@ Passo 6: Fazer doação: selecionar uma instituição pesquisada e fazer uma doa
 
 Fim: O usuário finaliza o processo com as informações de sua pegada de carbono e possíveis soluções sustentáveis.
 
-![AS-IS][../images/3.1diag.png]
+![AS-IS][./images/3.1diag.png]
 
 #### Problemas Identificados:
 
@@ -151,10 +151,10 @@ A solução está diretamente alinhada com as estratégias de promover sustentab
 
 # 3.3. Desenho dos Processos (TO BE)
 
-[PROCESSO 1 - Registro da Conta](./processos/processo-1-Registro-da-Conta.md "Detalhamento do Processo 1.")
-[PROCESSO 2 - Cálculo da Pegada de Carbono sem Login](./processos/processo-2-Cálculo-da-Pegada-de-Carbono-sem-Login.md "Detalhamento do Processo 2.")
-[PROCESSO 3 - Cálculo da Pegada de Carbono com Login](./processos/processo-3-Cálculo-da-Pegada-de-Carbono-com-Login.md "Detalhamento do Processo 3.")
-[PROCESSO 4 - Fornecimento de Sugestões Sustentáveis](./processos/processo-4-Fornecimento-de-Sugestões-Sustentáveis.md "Detalhamento do Processo 4.")
-[PROCESSO 5 - Fornecimento de Sugestões Sustentáveis ​​com Login](./processos/processo-5-Fornecimento-de-Sugestões-Sustentáveis-com-Login.md "Detalhamento do Processo 5.")
-[PROCESSO 6 - Doação para Compensação de Emissões em Login](./processos/processo-6-Doação-para-Compensação-de-Emissões-(Sem-Login) "Detalhamento do Processo 6.")
-[PROCESSO 7 - Doação para Compensação de Emissões com Login](./processos/processo-7-Doação-para-Compensação-de-Emissões-com-Login.md "Detalhamento do Processo 7.")
+[PROCESSO 1 - Registro da Conta](./processos/processo-1-Registro-da-Conta.md "Descrição do Processo.")<br>
+[PROCESSO 2 - Cálculo da Pegada de Carbono sem Login](./processos/processo-2-Cálculo-da-Pegada-de-Carbono-sem-Login.md "Detalhamento do Processo 2.")<br>
+[PROCESSO 3 - Cálculo da Pegada de Carbono com Login](./processos/processo-3-Cálculo-da-Pegada-de-Carbono-com-Login.md "Detalhamento do Processo 3.")<br>
+[PROCESSO 4 - Fornecimento de Sugestões Sustentáveis](./processos/processo-4-Fornecimento-de-Sugestões-Sustentáveis.md "Detalhamento do Processo 4.")<br>
+[PROCESSO 5 - Fornecimento de Sugestões Sustentáveis ​​com Login](./processos/processo-5-Fornecimento-de-Sugestões-Sustentáveis-com-Login.md "Detalhamento do Processo 5.")<br>
+[PROCESSO 6 - Doação para Compensação de Emissões em Login](./processos/processo-6-Doação-para-Compensação-de-Emissões-(Sem-Login) "Detalhamento do Processo 6.")<br>
+[PROCESSO 7 - Doação para Compensação de Emissões com Login](./processos/processo-7-Doação-para-Compensação-de-Emissões-com-Login.md "Detalhamento do Processo 7.")<br>
