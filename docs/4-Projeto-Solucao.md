@@ -146,9 +146,6 @@ CREATE TABLE Doação
 
 </code>
 
-Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
-
-
 
 
 ### 4.4. Tecnologias
@@ -173,4 +170,3 @@ Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
 
 #### Hospedagem e Infraestrutura:
 **A DECIDIR!**
-
