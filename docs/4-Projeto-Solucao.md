@@ -97,49 +97,56 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 #### 4.3.3 Modelo Físico
 
-Insira aqui o script de criação das tabelas do banco de dados.
-
-Veja um exemplo:
-
 <code>
 
- -- Criação da tabela Médico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
-);
+CREATE TABLE Usuario 
+( 
+ ID_Usuario (PK) INT PRIMARY KEY,  
+ Nome INT,  
+ Email INT,  
+ Senha INT,  
+ idViagem INT,  
+ idDoação INT,  
+ idDoação INT,  
+); 
 
+CREATE TABLE Viagem 
+( 
+ Origem INT,  
+ ID_Usuario (PK) INT,  
+ ID_Viagem (PK)) INT PRIMARY KEY,  
+ Destino INT,  
+ Distancia INT,  
+ Data INT,  
+ ID_veiculo(FK) INT,  
+); 
 
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
-);
+CREATE TABLE Veículo 
+( 
+ Tipo INT,  
+ ID_Veiculo (PK) INT PRIMARY KEY,  
+ Emissão_CO2_km INT,  
+ idViagem INT,  
+); 
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
+CREATE TABLE Pegada de Carbono 
+( 
+ ID_Usuario (FK) INT,  
+ ID_Pegada (PK) INT PRIMARY KEY,  
+ Total_Emissões (g CO2) INT,  
+ Data_Calculo INT,  
+ ID_Veiculo (FK) INT,  
+ Resultado INT,  
+ idVeículo INT,  
+); 
 
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
-);
-
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+CREATE TABLE Doação 
+( 
+ Instituicao INT,  
+ Data_Doacao INT,  
+ Valor INT,  
+ ID_Usuario (FK) INT,  
+ ID_Doacao (PK) INT PRIMARY KEY,  
 );
 
 </code>
