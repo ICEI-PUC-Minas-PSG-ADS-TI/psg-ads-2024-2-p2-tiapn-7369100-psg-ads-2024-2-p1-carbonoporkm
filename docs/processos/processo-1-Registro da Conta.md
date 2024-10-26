@@ -1,4 +1,4 @@
-### 3.3.1 Processo 1 – Registro da Conta
+## 3.3.1 Processo 1 – Registro da Conta
 
 ### Descrição do Processo:
 O usuário acessa a página de registro e insere suas informações pessoais, como nome, e-mail e senha. Após a verificação dos dados, o sistema cria uma conta única para o usuário, permitindo que ele acesse funcionalidades exclusivas, como o cálculo personalizado da pegada de carbono e a possibilidade de salvar e verificar os resultados.<br>
