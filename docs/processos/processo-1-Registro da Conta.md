@@ -12,7 +12,7 @@ Oportunidades de Melhoria:
 Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).
 Integração de CAPTCHA para prevenir bots no registro.
 
-![Diagrama de Personas](psg-ads-2024-2-p2-tiapn-7369100-psg-ads-2024-2-p1-carbonoporkm/documentos/imagens/3.3-1diag.png)
+![Diagrama de Personas](./documentos/imagens/3.3-1diag.png)
 
 ## Detalhamento das atividades:
 Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
