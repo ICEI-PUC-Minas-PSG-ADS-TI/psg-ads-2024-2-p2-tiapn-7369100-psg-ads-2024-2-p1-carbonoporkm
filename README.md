@@ -1,6 +1,6 @@
 # CarbonoPorKM
 
-`Tecnologia em Análise e Desenvolv. de Sistemas`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
 `Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
