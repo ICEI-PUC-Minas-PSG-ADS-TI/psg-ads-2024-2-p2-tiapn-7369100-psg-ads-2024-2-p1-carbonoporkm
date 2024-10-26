@@ -1,45 +1,69 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+As emissões de dióxido de carbono (CO₂) têm sido uma das principais preocupações ambientais globais, contribuindo significativamente para as mudanças climáticas. O setor de transporte, especialmente o transporte rodoviário, é um dos maiores emissores de CO₂, representando cerca de 24% das emissões globais relacionadas à energia em 2023, conforme relatado pela Agência Internacional de Energia (IEA) no site "ourworldindata.org”. Com a crescente urbanização e a dependência de veículos movidos a combustíveis fósseis, as emissões do transporte rodoviário continuam a aumentar, exacerbando os desafios para cumprir a meta de limitação do aquecimento global a 1,5°C, conforme o Acordo de Paris.
+Neste contexto, a ferramenta do site CarbonoPorKM surge como um recurso que permite aos usuários calcular sua pegada de carbono específica para o transporte rodoviário, com base nas distâncias percorridas diariamente. Este tipo de ferramenta é crucial, pois promove maior conscientização individual sobre o impacto ambiental das atividades cotidianas e incentiva a adoção de práticas mais sustentáveis, mitigando as emissões de CO₂ provenientes do setor de transportes.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1. Pedro Paulo - O Jovem Profissional Consciente
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Idade : 26 anos
+Profissão : Arquiteto recém-formado
+Objetivo : Reduzir o impacto ambiental do transporte diário e conhecimento adquirir em sustentabilidade para aplicar em projetos futuros.
+Comportamento : Pedro é independente, gosta de viajar e sonha em fazer um intercâmbio. Ele se preocupa com questões ambientais e acredita que pequenas mudanças no dia a dia podem fazer uma grande diferença. Pedro usa o carro para deslocamentos urbanos, mas está disposto a buscar alternativas mais sustentáveis, como caronas e transporte público.
+Necessidades no CarbonoPorKM : Pedro busca calcular sua pegada de carbono para entender como suas atividades diárias impactam o ambiente e receber sugestões de práticas sustentáveis, que ele poderá aplicar ao seu estilo de vida e aos futuros projetos de arquitetura.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+2. Camila - A Educadora e Mãe Engajada
 
+Idade : 42 anos
+Profissão : Professora de ciências do ensino médio
+Objetivo : Conscientizar seus alunos e sua família sobre sustentabilidade e reduzir a pegada de carbono nas atividades diárias.
+Comportamento : Camila é uma pessoa prática e engajada em causas sociais e ambientais. Como educadora, ela gosta de explorar temas como mudanças climáticas em suas aulas e acredita que ensinar com exemplos práticos fortalece o aprendizado. Camila usa o transporte público para ir ao trabalho, mas percebe que a família usa o carro para atividades cotidianas.
+Necessidades no CarbonoPorKM : Camila procura uma ferramenta educativa que possa usar com seus alunos, ensinando sobre sustentabilidade com exemplos práticos. Ela também quer analisar e reduzir a pegada de carbono da família, incentivando hábitos mais sustentáveis.
+
+3. Roberto - O Empreendedor Verde
+
+Idade : 35 anos
+Profissão : Dono de uma pequena empresa de produtos orgânicos
+Objetivo : Implementar práticas sustentáveis ​​na empresa e inspirar seus funcionários e clientes a fazerem o mesmo.
+Comportamento : Roberto é muito engajado com causas ambientais e está sempre buscando maneiras de tornar sua empresa mais sustentável. Ele acredita que ser responsável pelo meio ambiente é um diferencial competitivo e quer aplicar a sustentabilidade também no transporte de mercadorias e no deslocamento de funcionários. Roberto busca as emissões associadas às emissões de sua equipe e explorar incentivos e práticas para reduzir essa pegada.
+Necessidades no CarbonoPorKM : Roberto precisa de uma ferramenta para estimar a pegada de carbono da equipe e explorar sugestões de mobilidade sustentável que possam ser aplicadas na empresa, incentivando seus funcionários a compensar seus meios de transporte.
+
+4. Júlia - Uma Estudante Ambientalista
+
+Idade : 21 anos
+Profissão : Estudante de Biologia e voluntário em ONGs de proteção ambiental
+Objetivo : Aprender mais sobre o impacto do transporte na emissão de CO₂ e aplicar esse conhecimento em projetos de conscientização.
+Comportamento : Júlia está extremamente preocupada com o meio ambiente e dedica parte de seu tempo a campanhas de conscientização sobre as mudanças climáticas. Ela anda de bicicleta ou usa transporte público para se locomover, mas gostaria de saber como pequenas alterações nos hábitos de transporte podem ajudar a reduzir a pegada de carbono. Júlia usa a internet para acessar conteúdos e plataformas que promovam práticas sustentáveis.
+Necessidades no CarbonoPorKM : Júlia busca uma ferramenta que permita calcular o impacto de suas escolhas de transporte, além de fornecer dados e insights que possam compartilhar em campanhas de conscientização junto a ONGs e comunidades locais.
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+## Contexto: Recomendações e Sugestões Sustentáveis
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| EU COMO... `PERSONA`          | QUERO/PRECISO ... `FUNCIONALIDADE`                      | PARA ... `MOTIVO/VALOR`                                            |
+|-------------------------------|--------------------------------------------------------|--------------------------------------------------------------------|
+| Usuário logado                | Receber sugestões para reduzir minha pegada de carbono | Ter opções práticas e personalizadas para adotar rotinas sustentáveis |
+| Usuário não logado            | Visualizar sugestões sem necessidade de cadastro        | Considerar mudanças sustentáveis no transporte sem compromisso     |
+| Estudante Ambientalista       | Receber recomendações para promover na comunidade       | Compartilhar práticas sustentáveis com ONGs e comunidades locais   |
+| Empreendedor Verde            | Receber sugestões adaptadas para a empresa             | Incentivar práticas sustentáveis no transporte dos funcionários    |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+## Contexto: Doação para Compensação de Emissões
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| EU COMO... `PERSONA`          | QUERO/PRECISO ... `FUNCIONALIDADE`                      | PARA ... `MOTIVO/VALOR`                                            |
+|-------------------------------|--------------------------------------------------------|--------------------------------------------------------------------|
+| Usuário logado                | Realizar doações para compensar minha pegada de carbono | Contribuir ativamente para reduzir meu impacto ambiental           |
+| Usuário logado                | Visualizar projetos e fundos disponíveis para doação    | Escolher causas de compensação que se alinhem com meus valores     |
+| Empreendedor Verde            | Realizar doações em nome da empresa                    | Demonstrar compromisso com sustentabilidade perante clientes e funcionários |
 
+## Contexto: Configuração de Conta e Personalização
+
+| EU COMO... `PERSONA`          | QUERO/PRECISO ... `FUNCIONALIDADE`                      | PARA ... `MOTIVO/VALOR`                                            |
+|-------------------------------|--------------------------------------------------------|--------------------------------------------------------------------|
+| Usuário logado                | Configurar minhas preferências de notificações         | Ser informado de novas sugestões e projetos de doação              |
+| Administrador                 | Gerenciar permissões de usuário                         | Assegurar que apenas usuários autorizados possam realizar doações e ajustes na conta da empresa |
+| Usuário logado                | Editar minhas informações de perfil e transporte        | Manter meus dados atualizados para receber sugestões mais precisas |
+| Empreendedor Verde            | Configurar o perfil corporativo     
 
 
 ## Requisitos
@@ -48,44 +72,42 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID      | Descrição do Requisito                                                                                           | Prioridade |
+|---------|------------------------------------------------------------------------------------------------------------------|------------|
+| RF-001  | Permitir que o usuário calcule a pegada de carbono com base na distância diária percorrida e no tipo de veículo  | ALTA       |
+| RF-002  | Fornecer sugestões personalizadas para reduzir a pegada de carbono, como caronas, transporte público, etc.       | ALTA       |
+| RF-003  | Permitir que usuários logados visualizem e acompanhem o histórico de suas pegadas de carbono anteriores          | MÉDIA      |
+| RF-004  | Disponibilizar a opção de doação para compensação de emissões, com lista de fundos e projetos parceiros          | ALTA       |
+| RF-005  | Possibilitar o cálculo da pegada de carbono sem necessidade de cadastro                                          | MÉDIA      |
+| RF-006  | Permitir configuração de preferências de notificação para alertas de novas sugestões e atualizações              | BAIXA      |
+| RF-007  | Fornecer relatórios de pegada de carbono para uso educativo e corporativo                                        | MÉDIA      |
+| RF-008  | Permitir que administradores gerenciem permissões de acesso dos usuários                                         | ALTA       |
+| RF-009  | Exibir gráficos e estatísticas de pegada de carbono para facilitar a compreensão dos dados                       | MÉDIA      |
+| RF-010  | Oferecer suporte para múltiplos idiomas                                                                          | BAIXA      |
 
-### Requisitos não Funcionais
+## Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID      | Descrição do Requisito                                                                            | Prioridade |
+|---------|---------------------------------------------------------------------------------------------------|------------|
+| RNF-001 | O sistema deve responder ao cálculo da pegada de carbono em menos de 3 segundos                   | ALTA       |
+| RNF-002 | Garantir a privacidade e segurança dos dados dos usuários, utilizando criptografia                | ALTA       |
+| RNF-003 | O sistema deve ser compatível com dispositivos móveis, ajustando-se responsivamente               | ALTA       |
+| RNF-004 | O sistema deve ser escalável para suportar grande número de acessos simultâneos                   | MÉDIA      |
+| RNF-005 | Manter uma taxa de disponibilidade mínima de 99,5% ao longo do ano                                | ALTA       |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-## Restrições
+## Restrições do Projeto
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID  | Restrição                                                                                   |
+|-----|--------------------------------------------------------------------------------------------|
+| 01  | O projeto deverá ser entregue até o final do semestre                                      |
+| 02  | Não pode ser desenvolvido um módulo de backend                                             |
+| 03  | O sistema deve ser desenvolvido usando apenas tecnologias front-end (HTML, CSS, JavaScript)|
+| 04  | A aplicação deve funcionar em navegadores modernos e não requer compatibilidade com versões antigas |
+| 05  | O sistema deve usar apenas APIs gratuitas para cálculos e geolocalização                   |
+| 06  | O projeto não deve ultrapassar o orçamento estipulado                                      |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
