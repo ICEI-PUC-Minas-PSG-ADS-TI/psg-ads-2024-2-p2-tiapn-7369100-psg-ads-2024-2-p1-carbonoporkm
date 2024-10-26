@@ -1,4 +1,4 @@
-## Processo 2: Cálculo da Pegada de Carbono sem Login  
+## 3.3.2 Processo 2: Cálculo da Pegada de Carbono sem Login  
 
 ### Descrição do Processo:
 Usuários não registrados podem acessar a funcionalidade básica de cálculo da pegada de carbono. Eles inserem a distância diária percorrida e o tipo de veículo, e o sistema retorna a quantidade de CO₂ emitida, sem salvar os dados.<br>
@@ -17,16 +17,14 @@ Implementação de gráficos sonoros para ilustrar o impacto ambiental.<br>
 ## Detalhamento das atividades:
 Será feito o cálculo da pegada de carbono e como o usuário está sem o login não irá se salvar o resultado somente mostrar na tela 
 
- ### Atividade 1
+ ### Atividade 1: Preencher os Campos
 
-| Campo | Tipo de Dado    | Restrições                                   | Valor Default |
-|-------|------------------|----------------------------------------------|---------------|
-| Nome  | Caixa de texto  | 1-40 caracteres                              |               |
-| Email | Caixa de texto  | válido e não registrado no sistema           |               |
-| Senha | Caixa de texto  | mínimo de 9 caracteres e pelo menos um número |               |
+| Campo           | Tipo de Dado       | Restrições          | Valor Default |
+| --------------- | ------------------ | ------------------- | ------------- |
+| Distância       | Número (decimal)   | Somente um valor    | Null          |
+| Tipo de veículo | Lista com veículos | Somente uma escolha | Null          |
 
-| Comandos        | Destinos                                                      | Tipo    |
-|-----------------|---------------------------------------------------------------|---------|
-| Registrar       | Validar dados, registrar usuário e encaminhar para página de usuário | default |
-| Login (header)  | Página de login                                               | default |
+| Comandos  | Destinos                     | Tipo    |
+| :-------: | :--------------------------: | :-----: |
+| Calcular  | Cálculo da pegada de carbono | default |
 
