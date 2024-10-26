@@ -12,7 +12,7 @@ Oportunidades de Melhoria:
 Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).
 Integração de CAPTCHA para prevenir bots no registro.
 
-![Diagrama de Personas](./images/nome_da_imagem.png)
+![Diagrama de Personas](/images/nome_da_imagem.png)
 #### Detalhamento das atividades
 
 O usuário acessa a página de registro e insere suas informações pessoais, como nome, e-mail e senha. Após a verificação dos dados, o sistema cria uma conta única para o usuário, permitindo que ele acesse funcionalidades exclusivas, como o cálculo personalizado da pegada de carbono e a possibilidade de salvar e verificar os resultados.
