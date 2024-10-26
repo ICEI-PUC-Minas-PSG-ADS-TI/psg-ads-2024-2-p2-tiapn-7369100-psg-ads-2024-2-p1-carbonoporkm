@@ -21,12 +21,21 @@
 
 ![Tela Processo 1](images/tela_1.png)
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>.
-A partir das atividades de usuário identificadas na seção anterior, elabore o protótipo de tela de cada uma delas.
-![Exemplo de Wireframe](images/wireframe-example.png)
+# Processo 2: Acessar Conta
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+![Tela Processo 2](images/tela_2.png)
+
+# Processo 3: Cálculo da Pegada de Carbono
+
+![Tela Processo 3](images/tela_3.png)
+
+# Processo 4: Fornecimento de Sugestões Sustentáveis
+
+![Tela Processo 4](images/tela_4.png)
+
+# Processo 6 e 7: Doação para Compensação de Emissões
+
+![Tela Processo 5](images/tela_5.png)
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
