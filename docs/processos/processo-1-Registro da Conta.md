@@ -12,5 +12,5 @@ Oportunidades de Melhoria:
 Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).
 Integração de CAPTCHA para prevenir bots no registro.
 
-![Diagrama de Personas](images/3.3-1diag.png)
+![Diagrama de Personas](./images/3.3-1diag.png)
 
