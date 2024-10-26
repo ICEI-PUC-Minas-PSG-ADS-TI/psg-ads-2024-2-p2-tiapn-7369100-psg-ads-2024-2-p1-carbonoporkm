@@ -108,7 +108,7 @@ Passo 6: Fazer doação: selecionar uma instituição pesquisada e fazer uma doa
 
 Fim: O usuário finaliza o processo com as informações de sua pegada de carbono e possíveis soluções sustentáveis.
 
-![AS-IS][./images/3.1diag.png]
+![AS-IS](./images/3.1diag.png)
 
 #### Problemas Identificados:
 
