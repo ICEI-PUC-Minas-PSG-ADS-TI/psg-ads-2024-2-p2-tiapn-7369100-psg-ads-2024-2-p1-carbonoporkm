@@ -21,15 +21,8 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 ## 4.1. Arquitetura da solução
 
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
  
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
+ ![Arquitetura](/images/D_Arquitetura.png)
  
 
 ### 4.2. Protótipos de telas
@@ -57,12 +50,7 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+![Classes](images/D_Classes.png)
 
 ## Modelo ER
 
