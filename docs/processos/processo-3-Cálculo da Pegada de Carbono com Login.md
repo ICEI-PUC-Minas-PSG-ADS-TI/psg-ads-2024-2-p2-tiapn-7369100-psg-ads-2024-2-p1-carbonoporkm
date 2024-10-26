@@ -25,8 +25,16 @@ Personalização de recomendações com base nos resultados passados ​​do us
 
 | Comandos        | Destinos                       | Tipo    |
 |-----------------|--------------------------------|---------|
-| Fazer login      | Usuário faz login no sistema  | default |
+| Fazer login     | Usuário faz login no sistema   | default |
 
 ### Atividade 2: Inserir a distância percorrida e o tipo de veículo
 
+| Campo           | Tipo de Dado       | Restrições          | Valor Default |
+|-----------------|--------------------|---------------------|---------------|
+| Distância       | Número (decimal)   | Somente um valor    |               |
+| Tipo de veículo | Lista com veículos | Somente uma escolha |               |
+
+| Comandos | Destinos                       | Tipo    |
+|----------|--------------------------------|---------|
+| Calcular | Cálculo da pegada de carbono   | default |
 
