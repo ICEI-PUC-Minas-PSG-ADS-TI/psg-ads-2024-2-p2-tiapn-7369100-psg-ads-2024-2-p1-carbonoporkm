@@ -15,7 +15,7 @@ Personalização de recomendações com base nos resultados passados ​​do us
 ![Diagrama BPMN](../images/3.3-3diag.png)<br>
 
 ## Detalhamento da Atividade:
- Será feito o cálculo da pegada de carbono e como o usuário está logado irá salvar o resultado no banco de dados é mostrar na tela.
+ Após fazer o login, o usuário preenche os dados necessários, o sistema fará o cálculo da pegada de carbono, e como o usuário está logado irá salvar o resultado no banco de dados e mostrar na tela.
  
 ### Atividade 1: Usuário faz login no sistema
 | Campo | Tipo de Dado    | Restrições        | Valor Default |
