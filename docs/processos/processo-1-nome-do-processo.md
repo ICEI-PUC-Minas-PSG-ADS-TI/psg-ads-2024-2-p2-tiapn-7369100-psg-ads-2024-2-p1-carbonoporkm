@@ -1,7 +1,7 @@
 ### 3.3.1 Processo 1 – Registro da Conta
 
-# Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).
-# Integração de CAPTCHA para prevenir bots no registro.
+_Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).
+Integração de CAPTCHA para prevenir bots no registro._
 
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](../images/process.png "Modelo BPMN do Processo 1.")
