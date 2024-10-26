@@ -1,10 +1,10 @@
 # CarbonoPorKM
 
-`CURSO`
+`Tecnologia em Análise e Desenvolv. de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
-`SEMESTRE`
+`2° SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
@@ -14,8 +14,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Carlos Henrique de Oliveira Santos
 * Matheus Leonardi Turbino de Souza
 * Pedro Henrique Rodrigues Evangelista
-*
-* 
+* Felipe de Oliveira Pereira
+* Theo Henrique Ferreira de Souza Freitas
 
 ## Orientador
 
