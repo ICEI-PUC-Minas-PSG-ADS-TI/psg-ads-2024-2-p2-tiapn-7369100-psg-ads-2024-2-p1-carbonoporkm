@@ -17,34 +17,25 @@
 
 ### 4.2. Protótipos de telas
 
-# Processo 1: Registro da Conta
+#### Processo 1: Registro da Conta
 
 ![Tela Processo 1](images/tela_1.png)
 
-# Processo 2: Acessar Conta
+#### Processo 2: Acessar Conta
 
 ![Tela Processo 2](images/tela_2.png)
 
-# Processo 3: Cálculo da Pegada de Carbono
+#### Processo 3: Cálculo da Pegada de Carbono
 
 ![Tela Processo 3](images/tela_3.png)
 
-# Processo 4: Fornecimento de Sugestões Sustentáveis
+#### Processo 4: Fornecimento de Sugestões Sustentáveis
 
 ![Tela Processo 4](images/tela_4.png)
 
-# Processo 6 e 7: Doação para Compensação de Emissões
+#### Processo 6 e 7: Doação para Compensação de Emissões
 
 ![Tela Processo 5](images/tela_5.png)
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
 
 
 ## Diagrama de Classes
@@ -143,24 +134,24 @@ Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
 
 ### 4.4. Tecnologias
 
-# Linguagens de Programação:
+#### Linguagens de Programação:
 **HTML/CSS/JavaScript:** Para a construção da interface do usuário (UI) e a interatividade do site.
 **PHP:** Usado para desenvolvimento backend, gerenciamento de requisições e integração com o banco de dados MySQL.
 **SQL:** Linguagem de consulta usada para interagir com o banco de dados MySQL.
 
-# Frameworks e Bibliotecas:
+#### Frameworks e Bibliotecas:
 **Bootstrap:** Framework de CSS utilizado para criar interfaces responsivas e otimizadas para diferentes dispositivos.
 **Leaflet:** Biblioteca JavaScript para criação de mapas interativos e visualização das rotas percorridas pelos usuários.
 **OpenStreetMap (OSM) e API Nominatim:** Usados para fornecer dados geoespaciais, permitindo o cálculo de distâncias entre dois pontos.
 
-# Banco de Dados:
+#### Banco de Dados:
 **MySQL:** Sistema de gerenciamento de banco de dados relacional, usado para armazenar dados de usuários, trajetos, doações e preferências.
 
-# Ferramentas de Desenvolvimento:
+#### Ferramentas de Desenvolvimento:
 **Figma:** Utilizado para o design e prototipagem da interface, facilitando a visualização de fluxos e layouts antes da implementação.
 **GitHub:** Plataforma para controle de versão e colaboração entre a equipe de desenvolvimento, hospedando o código-fonte e facilitando o gerenciamento de branches e merges.
 **Visual Studio Code:** IDE principal para a codificação do projeto, com integração com GitHub para controle de versão e plug-ins para facilitar o desenvolvimento em PHP, JavaScript, etc.
 
-# Hospedagem e Infraestrutura:
+#### Hospedagem e Infraestrutura:
 **A DECIDIR!**
 
