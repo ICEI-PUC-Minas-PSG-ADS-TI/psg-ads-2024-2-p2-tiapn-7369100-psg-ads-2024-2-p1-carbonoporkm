@@ -8,7 +8,7 @@ Passo 2 : O usuário escolhe a organização desejada.<br>
 Passo 3 : O sistema é redirecionado para o site da organização.<br>
 Fim : Usuário sai do sistema.<br>
 
-
+![Diagrama BPMN](../images/3.3-6diag.png)<br>
 
 #Oportunidades de Melhoria:<br>
 Integração direta com APIs de doação, permitindo ao usuário doar sem sair da plataforma.<br>
