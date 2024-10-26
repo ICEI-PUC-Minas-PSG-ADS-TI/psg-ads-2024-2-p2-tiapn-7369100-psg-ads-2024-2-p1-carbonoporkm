@@ -150,3 +150,11 @@ Apesar dos benefícios, a ferramenta possui algumas limitações:
 A solução está diretamente alinhada com as estratégias de promover sustentabilidade e aumentar a conscientização ambiental. O CarbonoPorKM fortalece a estratégia de envolver o usuário em ações proativas de redução de emissões, oferecendo uma interface educativa e funcional. Isso não só contribui para os objetivos globais de mitigação climática, como também cria um espaço de responsabilidade ambiental acessível a todos.
 
 # 3.3. Desenho dos Processos (TO BE)
+
+[PROCESSO 1 - Registro da Conta](./processos/processo-1-Registro-da-Conta.md "Detalhamento do Processo 1.")
+[PROCESSO 2 - Cálculo da Pegada de Carbono sem Login](./processos/processo-2-Cálculo-da-Pegada-de-Carbono-sem-Login.md "Detalhamento do Processo 2.")
+[PROCESSO 3 - Cálculo da Pegada de Carbono com Login](./processos/processo-3-Cálculo-da-Pegada-de-Carbono-com-Login.md "Detalhamento do Processo 3.")
+[PROCESSO 4 - Fornecimento de Sugestões Sustentáveis](./processos/processo-4-Fornecimento-de-Sugestões-Sustentáveis.md "Detalhamento do Processo 4.")
+[PROCESSO 5 - Fornecimento de Sugestões Sustentáveis ​​com Login](./processos/processo-5-Fornecimento-de-Sugestões-Sustentáveis-com-Login.md "Detalhamento do Processo 5.")
+[PROCESSO 6 - Doação para Compensação de Emissões em Login](./processos/processo-6-Doação-para-Compensação-de-Emissões-(Sem-Login) "Detalhamento do Processo 6.")
+[PROCESSO 7 - Doação para Compensação de Emissões com Login](./processos/processo-7-Doação-para-Compensação-de-Emissões-com-Login.md "Detalhamento do Processo 7.")
