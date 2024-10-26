@@ -13,7 +13,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Nitai Nandi Rodrigues da Silva
 * Carlos Henrique de Oliveira Santos
 * Matheus Leonardi Turbino de Souza
-* Nome completo do aluno 4
+* Pedro Henrique Rodrigues Evangelista
+*
+* 
 
 ## Orientador
 
