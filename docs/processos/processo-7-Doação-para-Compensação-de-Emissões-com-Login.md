@@ -1,4 +1,4 @@
-# Processo 7: Doação para Compensação de Emissões com Login  
+## 3.3.7 Processo 7: Doação para Compensação de Emissões com Login  
 Descrição do Processo:
 Usuários logados podem realizar ações diretamente pela plataforma, que registram a doação em nome do usuário e fornecem relatórios de impacto.
 Modelagem do Processo (BPMN):<br>
