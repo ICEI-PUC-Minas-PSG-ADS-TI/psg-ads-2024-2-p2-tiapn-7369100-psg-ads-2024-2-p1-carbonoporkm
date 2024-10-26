@@ -139,23 +139,31 @@ A solução está diretamente alinhada com as estratégias de promover sustentab
 
 
 3.3. Desenho dos Processos (TO BE)
+
 Processo 1: Registro da Conta  
 Descrição do Processo:
+
 O usuário acessa a página de registro e insere suas informações pessoais, como nome, e-mail e senha. Após a verificação dos dados, o sistema cria uma conta única para o usuário, permitindo que ele acesse funcionalidades exclusivas, como o cálculo personalizado da pegada de carbono e a possibilidade de salvar e verificar os resultados.
 Modelagem do Processo (BPMN):
 Início : O usuário solicita o registro.
+
 Passo 1 : Usuário preenche o formulário de cadastro.
+
 Passo 2 : O sistema valida as informações (e-mail válido, senha forte).
+
 Passo 3 : Criação da conta no banco de dados.
+
 Fim : Usuário registrado com sucesso.
+
 Oportunidades de Melhoria:
+
 Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).
 Integração de CAPTCHA para prevenir bots no registro.
 
 Detalhamento das atividades:
 Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
 
- Atividade 1: Preenchimento dos campos
+Atividade 1: Preenchimento dos campos
 Campo
 Tipo de Dado
 Restrições
@@ -191,14 +199,23 @@ default
 
 
 Processo 2: Cálculo da Pegada de Carbono sem Login  Descrição do Processo:
+
 Usuários não registrados podem acessar a funcionalidade básica de cálculo da pegada de carbono. Eles inserem a distância diária percorrida e o tipo de veículo, e o sistema retorna a quantidade de CO₂ emitida, sem salvar os dados.
+
 Modelagem do Processo (BPMN):
+
 Início : O usuário acessa a página de cálculo sem login.
+
 Passo 1 : Insira a distância percorrida e o tipo de veículo.
+
 Passo 2 : O sistema calcula a pegada de carbono com base em fórmulas predefinidas.
+
 Passo 3 : Exibe o resultado ao usuário.
+
 Fim : O resultado é apresentado sem salvar dados.
+
 Oportunidades de Melhoria:
+
 Oferecer um botão de registro para salvar os cálculos, incentivando mais engajamento.
 Implementação de gráficos sonoros para ilustrar o impacto ambiental.
 
@@ -231,20 +248,31 @@ default
 
 
 Processo 3: Cálculo da Pegada de Carbono com Login 
+
 Descrição do Processo:
+
 Os usuários logados podem realizar o cálculo de sua pegada de carbono de maneira personalizada. Os dados inseridos são armazenados para permitir futuras pesquisas e comparação de resultados ao longo do tempo.
+
 Modelagem do Processo (BPMN):
+
 Início : Usuário faz login no sistema.
+
 Passo 1 : O usuário insere a distância percorrida e o tipo de veículo.
+
 Passo 2 : O sistema calcula a pegada de carbono e armazena os dados no perfil do usuário.
+
 Passo 3 : O resultado é apresentado junto com sugestões personalizadas.
+
 Fim : Dados salvos para consulta futura.
+
 Oportunidades de Melhoria:
+
 Oferecer um painel com histórico de pegada de carbono, permitindo a comparação de emissões ao longo do tempo.
 Personalização de recomendações com base nos resultados passados ​​do usuário.
 
 Detalhamento da Atividade:
- Será feito o cálculo da pegada de carbono e como o usuário está logado irá salvar o resultado no banco de dados é mostrar na tela
+
+Será feito o cálculo da pegada de carbono e como o usuário está logado irá salvar o resultado no banco de dados é mostrar na tela
 Atividade 1: Usuário faz login no sistema
 Campo
 Tipo de Dado
@@ -296,22 +324,34 @@ default
 
 
 Processo 4: Fornecimento de Sugestões Sustentáveis
+
 Descrição do Processo:
+
 Após o projeto da pegada de carbono, o sistema oferece sugestões de práticas sustentáveis ​​para reduzir as emissões. Essas sugestões são fundamentadas no tipo de transporte utilizado pelo usuário e nas distâncias percorridas.
+
 Modelagem do Processo (BPMN):
+
 Início : O cálculo da pegada de carbono é concluído.
+
 Passo 1 : O sistema verifica o tipo de veículo,distância e o cálculo.
+
 Passo 2 : Sugestões sustentáveis ​​são geradas (ex:fazer doações, caronas, veículos elétricos).
-Passo 3 : As sugestões são propostas ao usuário 
-Fim : Sugestões exibidas com links de acesso..
+
+Passo 3 : As sugestões são propostas ao usuário.
+
+Fim : Sugestões exibidas com links de acesso.
+
 Oportunidades de Melhoria:
+
 Classificação das sugestões por impacto (ex: baixa, média, alta redução de CO₂).
 Feedback do usuário sobre as sugestões, permitindo ajustar recomendações futuras.
 
 
 Descrição da Atividade:
+
 Será mostrado as sugestões de soluções sustentáveis onde por o usuario não estar logado o sistema irá exibir uma lista pré definida   
 Atividade 1: Verificação do tipo de veículo, distância e cálculo da pegada de carbono
+
 Campo
 Tipo de Dado
 Restrições
@@ -342,16 +382,27 @@ default
 
 
 Processo 5: Fornecimento de Sugestões Sustentáveis ​​com Login  
+
 Descrição do Processo:
+
 Usuários logados recebem sugestões sugestivas personalizadas, baseadas no histórico de cálculos de pegada de carbono, podendo salvar as sugestões para análise posterior.
+
 Modelagem do Processo (BPMN):
+
 Início :  O cálculo da pegada de carbono é concluído.
+
 Passo 1 : O sistema acessa as preferências do usuário
+
 Passo 2 : Sugestões personalizadas são geradas com base nos dados anteriores.
+
 Passo 3 : O usuário pode salvar e revisar as sugestões posteriormente se quiser.
+
 Fim : Sugestões exibidas.
+
 Oportunidades de Melhoria:
+
 Ofereça um plano de ação para que o usuário siga e acompanhe as mudanças em suas práticas de transporte.
+
 Gamificação : Recompensas para usuários que seguem as sugestões.
 
 Atividade 1: Verificação do tipo de veículo, distância e cálculo da pegada de carbono
@@ -374,18 +425,22 @@ Somente um valor por cálculo
 Null
 
 Atividade 2: Geração de sugestões sustentáveis
+
 Campo
 Tipo de Dado
 Restrições
 Valor Default
+
 Sugestão 1
 Texto/Lista
 Link de algum dos colaboradores
 Null
+
 Sugestão 2
 Texto/Lista
 Link de algum dos colaboradores
 Null
+
 Sugestão 3
 Texto/Lista
 Link de algum dos colaboradores
@@ -410,16 +465,27 @@ default
 
 
 Processo 6: Doação para Compensação de Emissões (Sem Login)  
+
 Descrição do Processo:
+
 Usuários não registrados podem acessar a opção de fazer, mas o site os redireciona para sites externos de organizações de caridade ambiental.
+
 Modelagem do Processo (BPMN):
+
 Início : Ao fim do processo de exibição 
+
 Passo 1 : O sistema gera uma lista de organizações ambientais.
+
 Passo 2 : O usuário escolhe a organização desejada.
+
 Passo 3 : O sistema é redirecionado para o site da organização.
+
 Fim : Usuário sai do sistema.
+
 Oportunidades de Melhoria:
+
 Integração direta com APIs de doação, permitindo ao usuário doar sem sair da plataforma.
+
 Sugestão de organizações com base no tipo de veículo utilizado.
 
 
@@ -431,10 +497,12 @@ Restrições
 Valor Default
 Sugestão 
 Texto/Lista
+
 Link de algum dos colaboradores
 Null
 Instituição 
 Texto/Lista
+
 Nome da instituição cadastrada no site 
 Null
 Valor
@@ -453,19 +521,30 @@ default
 
 
 Processo 7: Doação para Compensação de Emissões com Login  
+
 Descrição do Processo:
+
 Usuários logados podem realizar ações diretamente pela plataforma, que registram a doação em nome do usuário e fornecem relatórios de impacto.
+
 Modelagem do Processo (BPMN):
+
 Início : Ao fim do processo de exibição 
+
 Passo 1 : O sistema gera uma lista de organizações ambientais parceiras.
+
 Passo 2 : O usuário seleciona a organização e o valor da doação.
-Passo 3: O usuário escolhe o valor do pagamento
+
+Passo 3: O usuário escolhe o valor do pagamento.
+
 Passo 4 : O sistema processa o pagamento e realiza a doação em nome do usuário.
+
 Passo 5 : A doação é registrada no histórico do usuário.
+
 Fim : Doação confirmada e relatório de impacto gerado.
 
 
 Oportunidades de Melhoria:
+
 Relatório de impacto acumulado , permitindo que o usuário acompanhe todas as suas doações e compensações.
 Automatização de doações recorrentes , oferecendo um plano de assinatura para compensação mensal das emissões.
 
@@ -504,6 +583,7 @@ usuário clica para doar o valor colocado
 
 
 4. Projeto da Solução
+
 A plataforma CarbonoPorKM foi concebida para promover a conscientização ambiental e educação sobre as emissões de dióxido de carbono (CO₂) produzidos pelos meios de transporte.
 Front-end e Interatividade:
 O Bootstrap foi selecionado para oferecer um design responsivo e intuitivo, adaptável a vários dispositivos, proporcionando uma navegação fluida, tanto em desktops quanto em dispositivos móveis.
@@ -513,6 +593,7 @@ A exibição de mapas interativos será feita por meio da biblioteca Leaflet, qu
 
 
 APIs e Dados Geoespaciais:
+
 A API Nominatim, do OpenStreetMap, será usada para realizar a geocodificação e geocodificação reversa, transformando endereços em coordenadas geográficas e vice-versa. Isso torna a experiência do usuário mais intuitiva, já que ele poderá inserir endereços facilmente e obter resultados precisos.
 Funcionalidade de Login e Acesso:
 A plataforma permitirá acesso tanto com login quanto sem login:
@@ -529,53 +610,79 @@ O MySQL foi escolhido como banco de dados, proporcionando uma solução robusta 
 4.1.1 Processo 1: Registro da Conta
 
  4.1.2 Processo 2: Acessar Conta 
+ 
 4.1.3 Processo 3: Cálculo da Pegada de Carbon
+
 4.1.4 Processo 4: Fornecimento de Sugestões Sustentáveis
+
 4.1.5 Processo 6/7: Doação para Compensação de Emissões
  
  
 4.2. Diagrama Entidade e Relacionamento (DER)
 
 4.3. Tecnologias  
+
 Linguagens de Programação:
+
 HTML/CSS/JavaScript: Para a construção da interface do usuário (UI) e a interatividade do site.
 PHP(OU JAVA SEI MEXER UM POUCO DE SQL COM PHP MAIS ainda não decidi se vai ser so JAVASCRIPT)(: Usado para desenvolvimento backend, gerenciamento de requisições e integração com o banco de dados MySQL.
+
 SQL: Linguagem de consulta usada para interagir com o banco de dados MySQL.
+
 Frameworks e Bibliotecas:
+
 Bootstrap: Framework de CSS utilizado para criar interfaces responsivas e otimizadas para diferentes dispositivos.
 Leaflet: Biblioteca JavaScript para criação de mapas interativos e visualização das rotas percorridas pelos usuários.
 OpenStreetMap (OSM) e API Nominatim: Usados para fornecer dados geoespaciais, permitindo o cálculo de distâncias entre dois pontos.
+
 Banco de Dados:
+
 MySQL: Sistema de gerenciamento de banco de dados relacional, usado para armazenar dados de usuários, trajetos, doações e preferências.
+
 Ferramentas de Desenvolvimento:
+
 Figma: Utilizado para o design e prototipagem da interface, facilitando a visualização de fluxos e layouts antes da implementação.
+
 GitHub: Plataforma para controle de versão e colaboração entre a equipe de desenvolvimento, hospedando o código-fonte e facilitando o gerenciamento de branches e merges.
+
 Visual Studio Code: IDE principal para a codificação do projeto, com integração com GitHub para controle de versão e plug-ins para facilitar o desenvolvimento em PHP, JavaScript, etc.
+
 Hospedagem e Infraestrutura:
+
 A DECIDIR!
 
 
 
-
-
 4.4 Fluxo da aplicação 
+
 1. Interação do Usuário (Frontend):
+   
 Entrada de Dados: O usuário acessa a aplicação via navegador e insere informações como as distâncias percorridas diariamente e o tipo de veículo utilizado. 
 Mapas Interativos: O usuário pode utilizar o mapa interativo gerado pelo Leaflet é alimentado com dados da API Nominatim do OpenStreetMap para selecionar rotas e calcular distâncias automaticamente.
 Dados de Login e Cadastro: Caso o usuário deseje, ele pode se registrar e fazer login, o que permite que os dados inseridos (rotas, histórico de pegada de carbono e preferências de doações) sejam salvos no sistema.
-2. Processamento no Servidor (Backend):
+
+3. Processamento no Servidor (Backend):
+   
 Recepção dos Dados: Quando o usuário submete as informações (rotas, tipo de veículo, etc.), esses dados são enviados para o backend utilizando requisições HTTP.
 Cálculos da Pegada de Carbono: O backend, desenvolvido em PHP, recebe os dados e executa os cálculos necessários para determinar a pegada de carbono do usuário. Esses cálculos são baseados em fatores como distância percorrida e tipo de veículo, utilizando parâmetros padrão de emissão de CO₂.
 Armazenamento e Recuperação de Dados: Se o usuário estiver logado, o sistema se conecta ao banco de dados MySQL para salvar ou recuperar informações relacionadas ao perfil do usuário, suas preferências e histórico de doações.
-3. Banco de Dados (MySQL):
+
+5. Banco de Dados (MySQL):
+
 Armazenamento de Informações do Usuário: As informações inseridas pelos usuários, como dados de login, trajetos percorridos, resultados de pegada de carbono e preferências de doações, são armazenadas no banco de dados MySQL.
+
 Consultas e Respostas: O servidor faz consultas ao banco de dados para obter dados de instituições para mostrar ao usuario. 
-4. Resposta ao Usuário:
+
+6. Resposta ao Usuário:
 Exibição dos Resultados: Após o backend calcular a pegada de carbono e processar as preferências do usuário, os resultados são enviados de volta ao navegador onde são exibidos.
 Sugestões e Ações Sustentáveis: O sistema também fornece sugestões para reduzir a pegada de carbono, como uso de transporte público, bicicletas ou veículos elétricos. Além disso, o usuário tem a opção de realizar doações para fundos relacionados ao meio ambiente.
+
 Salvamento de Dados (Opcional): Se o usuário estiver logado, ele poderá optar por salvar seus resultados e preferências para futuras consultas e doações personalizadas.
-5. Ferramentas de Desenvolvimento e Controle de Versão:
+
+8. Ferramentas de Desenvolvimento e Controle de Versão:
+
 Figma: Usado para o design e prototipagem das interfaces do usuário, criando uma experiência de navegação intuitiva e coerente.
 Visual Studio Code: IDE utilizada para o desenvolvimento do código backend e frontend.
+
 GitHub: Utilizado para controle de versão, garantindo a integridade do código e a colaboração eficiente entre os desenvolvedores.
 
