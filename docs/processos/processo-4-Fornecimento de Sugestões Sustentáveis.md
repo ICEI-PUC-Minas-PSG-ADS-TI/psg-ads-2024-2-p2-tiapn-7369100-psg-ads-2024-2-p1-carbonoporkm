@@ -1,5 +1,5 @@
-Processo 4: Fornecimento de Sugestões Sustentáveis
-Descrição do Processo:
+#Processo 4: Fornecimento de Sugestões Sustentáveis
+##Descrição do Processo:
 Após o projeto da pegada de carbono, o sistema oferece sugestões de práticas sustentáveis ​​para reduzir as emissões. Essas sugestões são fundamentadas no tipo de transporte utilizado pelo usuário e nas distâncias percorridas.
 Modelagem do Processo (BPMN):
 Início : O cálculo da pegada de carbono é concluído.
@@ -12,32 +12,22 @@ Classificação das sugestões por impacto (ex: baixa, média, alta redução de
 Feedback do usuário sobre as sugestões, permitindo ajustar recomendações futuras.
 
 
-Descrição da Atividade:
+##Descrição da Atividade:
 Será mostrado as sugestões de soluções sustentáveis onde por o usuario não estar logado o sistema irá exibir uma lista pré definida   
-Atividade 1: Verificação do tipo de veículo, distância e cálculo da pegada de carbono
-Campo
-Tipo de Dado
-Restrições
-Valor Default
-Tipo de veículo
-Lista com veículos
-Somente uma escolha
-Null
-Distância
-Número (decimal)
-Somente um valor
-Null
-CO₂ emitido
-Número (decimal)
-Somente um valor por cálculo
-Null
+####Atividade 1: Verificação do tipo de veículo, distância e cálculo da pegada de carbono
 
+# Tabelas de Dados e Comandos
 
+## Estrutura de Dados
 
+| Campo          | Tipo de Dado        | Restrições                | Valor Default |
+|----------------|---------------------|---------------------------|---------------|
+| Tipo de veículo | Lista com veículos  | Somente uma escolha       | Null          |
+| Distância      | Número (decimal)    | Somente um valor          | Null          |
+| CO₂ emitido    | Número (decimal)    | Somente um valor por cálculo | Null       |
 
-Comandos
-Destinos
-Tipo
-Exibir 
-Mostra na tela para o usuário todas as opções 
-default
+## Comandos
+
+| Comandos | Destinos                                 | Tipo     |
+|----------|-----------------------------------------|----------|
+| Exibir   | Mostra na tela para o usuário todas as opções | default |
