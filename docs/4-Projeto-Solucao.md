@@ -29,7 +29,7 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
   - OpenStreetMap: Serviço de mapas aberto, usado para exibir localizações.
   - Leaflet: Biblioteca JavaScript usada para mapear dados geográficos.
  
- ![Arquitetura](images/D_Arquitetura.png)
+ ![Arquitetura](images/arquitetura.png)
  
 
 ### 4.2. Protótipos de telas
