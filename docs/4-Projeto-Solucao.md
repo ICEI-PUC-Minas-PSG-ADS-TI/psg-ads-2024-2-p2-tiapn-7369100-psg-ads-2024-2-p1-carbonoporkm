@@ -9,7 +9,7 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 2. APIs e Dados Geoespaciais:
 * A API Nominatim, do OpenStreetMap, será usada para realizar a geocodificação e geocodificação reversa, transformando endereços em coordenadas geográficas e vice-versa. Isso torna a experiência do usuário mais intuitiva, já que ele poderá inserir endereços facilmente e obter resultados precisos.
-* 
+
 3. Funcionalidade de Login e Acesso:
 * A plataforma permitirá acesso tanto com login quanto sem login:
   * Usuários com login terão a possibilidade de salvar seus dados, como distâncias percorridas e resultados de pegada de carbono, além de realizar pesquisas personalizadas para doações em fundos ambientais.
