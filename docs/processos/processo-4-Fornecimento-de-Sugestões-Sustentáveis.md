@@ -6,10 +6,11 @@ Início : O cálculo da pegada de carbono é concluído.<br>
 Passo 1 : O sistema verifica o tipo de veículo,distância e o cálculo.<br>
 Passo 2 : Sugestões sustentáveis ​​são geradas (ex:fazer doações, caronas, veículos elétricos).<br>
 Passo 3 : As sugestões são propostas ao usuário <br>
-Fim : Sugestões exibidas com links de acesso..<br>
-
-![Diagrama BPMN](../images/3.3-4diag.png)<br>
-
+Fim : Sugestões exibidas com links de acesso..<br><br>
 Oportunidades de Melhoria:<br>
 Classificação das sugestões por impacto (ex: baixa, média, alta redução de CO₂).<br>
 Feedback do usuário sobre as sugestões, permitindo ajustar recomendações futuras.<br>
+
+![Diagrama BPMN](../images/3.3-4diag.png)<br>
+
+
