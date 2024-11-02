@@ -61,7 +61,7 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 #### 4.3.1 Modelo ER
 
-![Diagrama DER](images/4.2DER.png)O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+![Diagrama DER](images/4.2DER.png)
 
 
 
