@@ -34,7 +34,7 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 ### 4.2. Protótipos de telas
 
-#### Processo 1: Registro da Conta
+## Processo 1: Registro da Conta
 
 ### Detalhamento das atividades:
 Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
