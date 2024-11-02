@@ -16,24 +16,6 @@ Fim : Doação confirmada e relatório de impacto gerado.<br>
 Relatório de impacto acumulado , permitindo que o usuário acompanhe todas as suas doações e compensações.
 Automatização de doações recorrentes , oferecendo um plano de assinatura para compensação mensal das emissões.
 
-## Atividade 1: Doar para as instituições 
-O usuario ira escolher a instuição e o valor que quer doar para nosso site fazer a doação em seu nome
-## Estrutura de Dados Adicional
-
-| Campo       | Tipo de Dado   | Restrições                          | Valor Default |
-|-------------|----------------|-------------------------------------|---------------|
-| Sugestão    | Texto/Lista    | Link de algum dos colaboradores     | Null          |
-| Instituição | Texto/Lista    | Nome da instituição cadastrada no site | Null      |
-| Valor       | Double/Float   | Tem que ser em reais                | Null          |
-
-## Comandos Adicionais
-
-| Comandos  | Destinos                                     | Tipo     |
-|-----------|---------------------------------------------|----------|
-| Inserir valor| Usuário coloca o valor de quanto quer doar | default |
-| Doar | usuário clica para doar o valor colocado | default |
-
-
 
 
 
