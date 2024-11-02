@@ -7,8 +7,8 @@ Início : O usuário solicita o registro.<br>
 Passo 1 : Usuário preenche o formulário de cadastro.<br>
 Passo 2 : O sistema valida as informações (e-mail válido, senha forte).<br>
 Passo 3 : Criação da conta no banco de dados.<br>
-Fim : Usuário registrado com sucesso.<br>
-Oportunidades de Melhoria:<br><br>
+Fim : Usuário registrado com sucesso.<br><br>
+Oportunidades de Melhoria:<br>
 Implementação de validação automática de campos (ex: formatação de e-mail, força de senha).<br>
 Integração de CAPTCHA para prevenir bots no registro.<br>
 
