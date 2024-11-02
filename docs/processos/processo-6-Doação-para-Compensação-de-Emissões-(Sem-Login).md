@@ -1,7 +1,7 @@
 ## 3.3.6 Processo 6: Doação para Compensação de Emissões (Sem Login)<br>
 
 ### Descrição do Processo:<br>
-Usuários não registrados podem acessar a opção de fazer, mas o site os redireciona para sites externos de organizações de caridade ambiental.<br>
+Usuários não registrados podem acessar a opção de fazer, mas o site os redireciona para sites externos de organizações de caridade ambiental.<br><br>
 Modelagem do Processo (BPMN):<br>
 Início : Ao fim do processo de exibição <br>
 Passo 1 : O sistema gera uma lista de organizações ambientais.<br>
