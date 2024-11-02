@@ -83,8 +83,10 @@ Atualizado em: 21/04/2024
 | Nitai        | Arquitetura da solução  | 20/08/2024     | 13/09/2024 | ✔️    |  05/09/2024 |
 | Carlos        | Protótipos de telas 1,2  | 05/09/2024       | 13/09/2024 | ✔️   | 05/09/2024 |
 | Felipe        | Protótipos de telas 3,4  |    06/09/2024       | 13/09/2024 | ✔️       | 06/09/2024  |
-| Theo        | Objetivos específicos  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
-| Matheus        | Problema  |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+| Theo        | Modelo de dados  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
+| Matheus        | Modelo ER  |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+| Nitai       | Esquema Relacional  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
+| Pedro        | Modelo Físico |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
 
 Legenda:
 - ✔️: terminado
