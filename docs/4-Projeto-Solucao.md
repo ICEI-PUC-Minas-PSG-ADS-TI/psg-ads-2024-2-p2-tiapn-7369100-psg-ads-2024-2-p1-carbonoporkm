@@ -36,10 +36,10 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 #### Processo 1: Registro da Conta
 
-## Detalhamento das atividades:
+### Detalhamento das atividades:
 Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
 
-## Estrutura de Campos
+### Estrutura de Campos
 
 | Campo | Tipo de Dado    | Restrições                                   | Valor Default |
 |-------|------------------|----------------------------------------------|---------------|
@@ -47,20 +47,54 @@ Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e
 | Email | Caixa de texto  | válido e não registrado no sistema           |               |
 | Senha | Caixa de texto  | mínimo de 9 caracteres e pelo menos um número |               |
 
-## Comandos do Sistema
+### Comandos do Sistema
 
 | Comandos        | Destinos                                                      | Tipo    |
 |-----------------|---------------------------------------------------------------|---------|
 | Registrar       | Validar dados, registrar usuário e encaminhar para página de usuário | default |
 | Login (header)  | Página de login                                               | default |
 
-#### Processo 2: Acessar Conta
+### Processo 2: Cálculo da Pegada de Carbono sem Login
 
-![Tela Processo 2](images/tela_2.png)
+### Detalhamento das atividades:
+Será feito o cálculo da pegada de carbono e como o usuário está sem o login não irá se salvar o resultado somente mostrar na tela 
 
-#### Processo 3: Cálculo da Pegada de Carbono
+ ### Atividade 1: Preencher os Campos
 
-![Tela Processo 3](images/tela_3.png)
+| Campo           | Tipo de Dado       | Restrições          | Valor Default |
+| --------------- | ------------------ | ------------------- | ------------- |
+| Distância       | Número (decimal)   | Somente um valor    | Null          |
+| Tipo de veículo | Lista com veículos | Somente uma escolha | Null          |
+
+| Comandos  | Destinos                     | Tipo    |
+| :-------: | :--------------------------: | :-----: |
+| Calcular  | Cálculo da pegada de carbono | default |
+
+### Processo 3: Cálculo da Pegada de Carbono com login
+
+### Detalhamento da Atividade:
+ Após fazer o login, o usuário preenche os dados necessários, o sistema fará o cálculo da pegada de carbono, e como o usuário está logado irá salvar o resultado no banco de dados e mostrar na tela.
+ 
+### Atividade 1: Usuário faz login no sistema
+| Campo | Tipo de Dado    | Restrições        | Valor Default |
+|-------|------------------|------------------|---------------|
+| Email | Caixa de texto  | Valor obrigatório |               |
+| Senha | Caixa de texto  | Valor obrigatório |               |
+
+| Comandos        | Destinos                       | Tipo    |
+|-----------------|--------------------------------|---------|
+| Fazer login     | Usuário faz login no sistema   | default |
+
+### Atividade 2: Inserir a distância percorrida e o tipo de veículo
+
+| Campo           | Tipo de Dado       | Restrições          | Valor Default |
+|-----------------|--------------------|---------------------|---------------|
+| Distância       | Número (decimal)   | Somente um valor    |               |
+| Tipo de veículo | Lista com veículos | Somente uma escolha |               |
+
+| Comandos | Destinos                       | Tipo    |
+|----------|--------------------------------|---------|
+| Calcular | Cálculo da pegada de carbono   | default |
 
 #### Processo 4: Fornecimento de Sugestões Sustentáveis
 
