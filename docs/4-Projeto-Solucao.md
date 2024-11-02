@@ -36,10 +36,10 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 ## Processo 1: Registro da Conta
 
-### Detalhamento das atividades:
+#### Detalhamento das atividades:
 Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
 
-### Atividade 1: Preencher formulário
+#### Atividade 1: Preencher formulário
 
 | Campo | Tipo de Dado    | Restrições                                   | Valor Default |
 |-------|------------------|----------------------------------------------|---------------|
@@ -47,7 +47,7 @@ Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e
 | Email | Caixa de texto  | válido e não registrado no sistema           |               |
 | Senha | Caixa de texto  | mínimo de 9 caracteres e pelo menos um número |               |
 
-### Comandos do Sistema
+#### Comandos do Sistema
 
 | Comandos        | Destinos                                                      | Tipo    |
 |-----------------|---------------------------------------------------------------|---------|
@@ -56,10 +56,10 @@ Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e
 
 ## Processo 2: Cálculo da Pegada de Carbono sem Login
 
-### Detalhamento das atividades:
+#### Detalhamento das atividades:
 Será feito o cálculo da pegada de carbono e como o usuário está sem o login não irá se salvar o resultado somente mostrar na tela 
 
- ### Atividade 1: Preencher os Campos
+ #### Atividade 1: Preencher os Campos
 
 | Campo           | Tipo de Dado       | Restrições          | Valor Default |
 | --------------- | ------------------ | ------------------- | ------------- |
@@ -72,10 +72,10 @@ Será feito o cálculo da pegada de carbono e como o usuário está sem o login 
 
 ## Processo 3: Cálculo da Pegada de Carbono com login
 
-### Detalhamento da Atividade:
+#### Detalhamento da Atividade:
  Após fazer o login, o usuário preenche os dados necessários, o sistema fará o cálculo da pegada de carbono, e como o usuário está logado irá salvar o resultado no banco de dados e mostrar na tela.
  
-### Atividade 1: Usuário faz login no sistema
+#### Atividade 1: Usuário faz login no sistema
 | Campo | Tipo de Dado    | Restrições        | Valor Default |
 |-------|------------------|------------------|---------------|
 | Email | Caixa de texto  | Valor obrigatório |               |
@@ -85,7 +85,7 @@ Será feito o cálculo da pegada de carbono e como o usuário está sem o login 
 |-----------------|--------------------------------|---------|
 | Fazer login     | Usuário faz login no sistema   | default |
 
-### Atividade 2: Inserir a distância percorrida e o tipo de veículo
+#### Atividade 2: Inserir a distância percorrida e o tipo de veículo
 
 | Campo           | Tipo de Dado       | Restrições          | Valor Default |
 |-----------------|--------------------|---------------------|---------------|
@@ -96,32 +96,55 @@ Será feito o cálculo da pegada de carbono e como o usuário está sem o login 
 |----------|--------------------------------|---------|
 | Calcular | Cálculo da pegada de carbono   | default |
 
-## Processo 4: Fornecimento de Sugestões Sustentáveis
+## Processo 4: Fornecimento de Sugestões Sustentáveis sem login
 
-### Descrição da Atividade:
-Será mostrado as sugestões de soluções sustentáveis onde por o usuario não estar logado o sistema irá exibir uma lista pré definida   
-#### Atividade 1: Verificação do tipo de veículo, distância e cálculo da pegada de carbono
+#### Descrição da Atividade:
+Será mostrado as sugestões de soluções sustentáveis, onde por o usuario não estar logado o sistema irá exibir uma lista pré definida.
 
-# Tabelas de Dados e Comandos
+## Processo 5: Fornecimento de Sugestões Sustentáveis ​​com Login 
 
-### Estrutura de Dados
+#### Detalhamento da Atividade:
+ O sistema busca no banco de dados as preferências do usuário, e gera sugestões a partir destas. O sistema mostra na tela um aviso, perguntando se o usuário quer ou não salvar as sugestões mostradas. O usuário pode aceitar ou não, se aceitar, as sugestões são salvas no banco de dados. 
 
-| Campo          | Tipo de Dado        | Restrições                | Valor Default |
-|----------------|---------------------|---------------------------|---------------|
-| Tipo de veículo | Lista com veículos  | Somente uma escolha       | Null          |
-| Distância      | Número (decimal)    | Somente um valor          | Null          |
-| CO₂ emitido    | Número (decimal)    | Somente um valor por cálculo | Null       |
+#### Atividade 1: Salvar Sugestões
+| Comandos         | Destinos                       | Tipo    |
+|------------------|--------------------------------|---------|
+| Salvar sugestões | Salvar ou não as sugestões     | boolean |
 
-## Comandos
+## Processo 6: Doação para Compensação de Emissões (Sem Login)
 
-| Comandos | Destinos                                 | Tipo     |
-|----------|-----------------------------------------|----------|
-| Exibir   | Mostra na tela para o usuário todas as opções | default |
+#### Detalhamento da Atividade:
+Esse processo o usuario sem login será redirecionado para sua instituição de escolha.
 
-## Processo 6 e 7: Doação para Compensação de Emissões
+#### Atividade 1: Doar (sem login)<br>
 
-![Tela Processo 5](images/tela_5.png)
+| Campo       | Tipo de Dado   | Restrições                          | Valor Default |
+|-------------|----------------|-------------------------------------|---------------|
+| Sugestão    | Texto/Lista    | Link de algum dos colaboradores     | Null          |
+| Instituição | Texto/Lista    | Nome da instituição cadastrada no site | Null      |
+| Valor       | Double/Float   | Tem que ser em reais                | Null          |
 
+| Comandos  | Destinos                                     | Tipo     |
+|-----------|---------------------------------------------|----------|
+| Abrir link | O usuário abre o link da instituição escolhida | default |
+
+## Processo 7: Doação para Compensação de Emissões (Com login)
+
+#### Detalhamento da Atividade:
+O usuario irá escolher a instuição e o valor que quer doar para nosso site fazer a doação em seu nome.
+
+#### Atividade 1: Doar para as instituições 
+
+| Campo       | Tipo de Dado   | Restrições                          | Valor Default |
+|-------------|----------------|-------------------------------------|---------------|
+| Sugestão    | Texto/Lista    | Link de algum dos colaboradores     | Null          |
+| Instituição | Texto/Lista    | Nome da instituição cadastrada no site | Null      |
+| Valor       | Double/Float   | Tem que ser em reais                | Null          |
+
+| Comandos  | Destinos                                     | Tipo     |
+|-----------|---------------------------------------------|----------|
+| Inserir valor| Usuário coloca o valor de quanto quer doar | default |
+| Doar | usuário clica para doar o valor colocado | default |
 
 
 ### 4.3. Modelo de dados
