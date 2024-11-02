@@ -13,7 +13,3 @@ Fim : Sugestões exibidas com links de acesso..<br>
 Oportunidades de Melhoria:<br>
 Classificação das sugestões por impacto (ex: baixa, média, alta redução de CO₂).<br>
 Feedback do usuário sobre as sugestões, permitindo ajustar recomendações futuras.<br>
-
-## Descrição da Atividade:
-Será mostrado as sugestões de soluções sustentáveis onde por o usuario não estar logado o sistema irá exibir uma lista pré definida   
-
