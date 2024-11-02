@@ -36,7 +36,23 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 
 #### Processo 1: Registro da Conta
 
-![Tela Processo 1](images/tela_1.png)
+## Detalhamento das atividades:
+Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
+
+## Estrutura de Campos
+
+| Campo | Tipo de Dado    | Restrições                                   | Valor Default |
+|-------|------------------|----------------------------------------------|---------------|
+| Nome  | Caixa de texto  | 1-40 caracteres                              |               |
+| Email | Caixa de texto  | válido e não registrado no sistema           |               |
+| Senha | Caixa de texto  | mínimo de 9 caracteres e pelo menos um número |               |
+
+## Comandos do Sistema
+
+| Comandos        | Destinos                                                      | Tipo    |
+|-----------------|---------------------------------------------------------------|---------|
+| Registrar       | Validar dados, registrar usuário e encaminhar para página de usuário | default |
+| Login (header)  | Página de login                                               | default |
 
 #### Processo 2: Acessar Conta
 
