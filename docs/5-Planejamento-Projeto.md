@@ -36,10 +36,10 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Pedro       | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | ✔️    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ✔️     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ✔️    |       |
+| Pedro       | Introdução | 16/08/2024     | 06/09/2024 | ✔️    | 01/09/2024      |
+| Nitai        | Objetivos    | 20/08/2024     | 06/09/2024 | ✔️    |  05/09/2024               |
+| Carlos        | Histórias de usuário  | 05/09/2024       | 06/09/2024 | ✔️     | 05/09/2024                 |
+| Felipe        | Personas 1  |    06/09/2024       | 06/09/2024 | ✔️    |       | 06/09/2024 
 
 ## Sprint 2
 
