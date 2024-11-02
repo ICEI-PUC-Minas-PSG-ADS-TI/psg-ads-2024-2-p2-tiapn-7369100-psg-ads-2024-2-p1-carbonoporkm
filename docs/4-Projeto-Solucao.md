@@ -32,14 +32,14 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
  ![Arquitetura](images/arquitetura.png)
  
 
-### 4.2. Protótipos de telas
+## 4.2. Protótipos de telas
 
 ## Processo 1: Registro da Conta
 
 ### Detalhamento das atividades:
 Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e personalizados, o usuário deverá entrar na página de registro e informar seus dados. Feito isso, serão registrados no sistema os dados de um novo usuário, e será possível fazer login com estes.
 
-### Estrutura de Campos
+### Atividade 1: Preencher formulário
 
 | Campo | Tipo de Dado    | Restrições                                   | Valor Default |
 |-------|------------------|----------------------------------------------|---------------|
@@ -54,7 +54,7 @@ Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e
 | Registrar       | Validar dados, registrar usuário e encaminhar para página de usuário | default |
 | Login (header)  | Página de login                                               | default |
 
-### Processo 2: Cálculo da Pegada de Carbono sem Login
+## Processo 2: Cálculo da Pegada de Carbono sem Login
 
 ### Detalhamento das atividades:
 Será feito o cálculo da pegada de carbono e como o usuário está sem o login não irá se salvar o resultado somente mostrar na tela 
@@ -70,7 +70,7 @@ Será feito o cálculo da pegada de carbono e como o usuário está sem o login 
 | :-------: | :--------------------------: | :-----: |
 | Calcular  | Cálculo da pegada de carbono | default |
 
-### Processo 3: Cálculo da Pegada de Carbono com login
+## Processo 3: Cálculo da Pegada de Carbono com login
 
 ### Detalhamento da Atividade:
  Após fazer o login, o usuário preenche os dados necessários, o sistema fará o cálculo da pegada de carbono, e como o usuário está logado irá salvar o resultado no banco de dados e mostrar na tela.
@@ -96,11 +96,29 @@ Será feito o cálculo da pegada de carbono e como o usuário está sem o login 
 |----------|--------------------------------|---------|
 | Calcular | Cálculo da pegada de carbono   | default |
 
-#### Processo 4: Fornecimento de Sugestões Sustentáveis
+## Processo 4: Fornecimento de Sugestões Sustentáveis
 
-![Tela Processo 4](images/tela_4.png)
+### Descrição da Atividade:
+Será mostrado as sugestões de soluções sustentáveis onde por o usuario não estar logado o sistema irá exibir uma lista pré definida   
+#### Atividade 1: Verificação do tipo de veículo, distância e cálculo da pegada de carbono
 
-#### Processo 6 e 7: Doação para Compensação de Emissões
+# Tabelas de Dados e Comandos
+
+### Estrutura de Dados
+
+| Campo          | Tipo de Dado        | Restrições                | Valor Default |
+|----------------|---------------------|---------------------------|---------------|
+| Tipo de veículo | Lista com veículos  | Somente uma escolha       | Null          |
+| Distância      | Número (decimal)    | Somente um valor          | Null          |
+| CO₂ emitido    | Número (decimal)    | Somente um valor por cálculo | Null       |
+
+## Comandos
+
+| Comandos | Destinos                                 | Tipo     |
+|----------|-----------------------------------------|----------|
+| Exibir   | Mostra na tela para o usuário todas as opções | default |
+
+## Processo 6 e 7: Doação para Compensação de Emissões
 
 ![Tela Processo 5](images/tela_5.png)
 
