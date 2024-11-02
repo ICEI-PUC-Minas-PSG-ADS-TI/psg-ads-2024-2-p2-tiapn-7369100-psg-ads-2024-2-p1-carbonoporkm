@@ -36,10 +36,12 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Pedro       | Introdução | 16/08/2024     | 06/09/2024 | ✔️    | 01/09/2024      |
-| Nitai        | Objetivos    | 20/08/2024     | 06/09/2024 | ✔️    |  05/09/2024               |
-| Carlos        | Histórias de usuário  | 05/09/2024       | 06/09/2024 | ✔️     | 05/09/2024                 |
-| Felipe        | Personas 1  |    06/09/2024       | 06/09/2024 | ✔️    |       | 06/09/2024  |
+| Pedro       | Introdução | 16/08/2024     | 13/09/2024 | ✔️    | 01/09/2024      |
+| Nitai        | Objetivos Gerais   | 20/08/2024     | 13/09/2024 | ✔️    |  05/09/2024               |
+| Carlos        | Histórias de usuário  | 05/09/2024       | 13/09/2024 | ✔️     | 05/09/2024                 |
+| Felipe        | Personas  |    06/09/2024       | 13/09/2024 | ✔️    |       | 06/09/2024  |
+| Theo        | Objetivos específicos  |    24/08/2024       | 13/09/2024| ✔️    |       | 01/09/2024  |
+| Matheus        | Problema  |    06/09/2024       | 13/09/2024 | ✔️    |       | 06/09/2024  |
 
 ## Sprint 2
 
@@ -47,10 +49,12 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Pedro       | Introdução | 16/08/2024     | 04/10/2024 | ✔️    | 01/09/2024      |
+| Nitai        | Objetivos Gerais   | 20/08/2024     | 04/10/2024 | ✔️    |  05/09/2024               |
+| Carlos        | Histórias de usuário  | 05/09/2024       | 04/10/2024 | ✔️     | 05/09/2024                 |
+| Felipe        | Personas  |    06/09/2024       | 04/10/2024 | ✔️    |       | 06/09/2024  |
+| Theo        | Objetivos específicos  |    24/08/2024       | 04/10/2024 | ✔️    |       | 01/09/2024  |
+| Matheus        | Problema  |    06/09/2024       | 04/10/2024 | ✔️    |       | 06/09/2024  |
 
 
 Legenda:
