@@ -32,7 +32,7 @@
 
 ## Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 01/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -45,7 +45,7 @@ Atualizado em: 21/04/2024
 
 ## Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 01/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -58,7 +58,7 @@ Atualizado em: 21/04/2024
 
 ## Sprint 3
 
-Atualizado em: 21/04/2024
+Atualizado em: 01/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
