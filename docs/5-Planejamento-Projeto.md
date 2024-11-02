@@ -42,21 +42,14 @@ Atualizado em: 01/11/2024
 | Felipe        |  Publico alvo |    06/09/2024       | 13/09/2024 | ✔️       | 06/09/2024  |
 | Theo        | Objetivos específicos  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
 | Matheus        | Problema  |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
-
-## Sprint 2
-
-Atualizado em: 01/11/2024
-
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Pedro       | Participantes do processo |  30/09/2024     | 04/10/2024 | ✔️    | 1/10/2024      |
+| Pedro       | Participantes do processo |  30/09/2024     | 04/10/2024 | ✔️    | 1/10/2024   |
 | Nitai        | Usuário Geral   | 01/10/2024     | 04/09/2024 | ✔️    |  01/10/2024 |
 | Carlos        | Histórias de usuário  | 05/09/2024       | 04/10/2024| ✔️   | 04/10/2024 |
 | Felipe        | Personas  |    13/09/2024       | 04/10/2024 | ✔️       | 04/10/2024 |
 | Theo        | Restrição |    10/09/2024       | 04/10/2024| ✔️  |    04/10/2024  |
 | Matheus        | Requisitos |    06/09/2024       | 04/10/2024 | ✔️    |      04/10/2024  |
 
-## Sprint 3
+## Sprint 2
 
 Atualizado em: 01/11/2024
 
@@ -73,9 +66,9 @@ Atualizado em: 01/11/2024
 | Matheus        |  Processo 4,5 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
 | Felipe        |  Processo 6,7 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
 
-## Sprint 4
+## Sprint 3
 
-Atualizado em: 21/04/2024
+Atualizado em: 01/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -87,6 +80,12 @@ Atualizado em: 21/04/2024
 | Matheus        | Modelo ER  |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
 | Nitai       | Esquema Relacional  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
 | Pedro        | Modelo Físico |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+
+## Sprint 4
+
+Atualizado em: 01/11/2024
+
+
 
 Legenda:
 - ✔️: terminado
