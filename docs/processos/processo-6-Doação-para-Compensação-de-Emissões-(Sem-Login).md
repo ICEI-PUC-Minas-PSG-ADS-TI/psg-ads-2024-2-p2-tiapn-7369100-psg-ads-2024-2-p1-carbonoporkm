@@ -14,22 +14,3 @@ Fim : Usuário sai do sistema.<br>
 # Oportunidades de Melhoria:<br>
 Integração direta com APIs de doação, permitindo ao usuário doar sem sair da plataforma.<br>
 Sugestão de organizações com base no tipo de veículo utilizado.<br>
-
-
-# Atividade 1: Doar (sem login)<br>
-
-Esse processo o usuario sem login sera redirecionado para sua instituição de escolha 
-
-## Estrutura de Dados Adicional
-
-| Campo       | Tipo de Dado   | Restrições                          | Valor Default |
-|-------------|----------------|-------------------------------------|---------------|
-| Sugestão    | Texto/Lista    | Link de algum dos colaboradores     | Null          |
-| Instituição | Texto/Lista    | Nome da instituição cadastrada no site | Null      |
-| Valor       | Double/Float   | Tem que ser em reais                | Null          |
-
-## Comandos Adicionais
-
-| Comandos  | Destinos                                     | Tipo     |
-|-----------|---------------------------------------------|----------|
-| Abrir link | O usuário abre o link da instituição escolhida | default |
