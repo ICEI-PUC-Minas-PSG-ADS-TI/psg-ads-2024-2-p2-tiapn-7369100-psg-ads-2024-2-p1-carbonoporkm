@@ -49,6 +49,10 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 ## Histórico de versões
 
+* 0.1.1
+    * Ajuste na formatação da documentação de modelagem dos processos
+    * Tabelas de protótipos de telas movidas da documentação de modelagem dos processos para Projeto da Solução.
+    * Atualização básica do documento 5. Planejamento do Projeto.
 * 0.1.0
     * Implementação da documentação, imagens, atualização de links.
 
