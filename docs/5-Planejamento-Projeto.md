@@ -62,12 +62,16 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Pedro       | Introdução | 16/08/2024     | 13/09/2024 | ✔️    | 01/09/2024      |
-| Nitai        | Objetivos Gerais   | 20/08/2024     | 13/09/2024 | ✔️    |  05/09/2024 |
-| Carlos        | Histórias de usuário  | 05/09/2024       | 13/09/2024 | ✔️   | 05/09/2024 |
-| Felipe        | Personas  |    06/09/2024       | 13/09/2024 | ✔️       | 06/09/2024  |
-| Theo        | Objetivos específicos  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
-| Matheus        | Problema  |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+| Pedro       | Análise dos processos | 16/08/2024     | 13/09/2024 | ✔️    | 01/09/2024      |
+| Nitai        | Modelagem da situação atual   | 20/08/2024     | 13/09/2024 | ✔️    |  05/09/2024 |
+| Carlos        | Desenho dos Processos | 05/09/2024       | 13/09/2024 | ✔️   | 05/09/2024 |
+| Felipe        | Participantes  |    06/09/2024       | 13/09/2024 | ✔️       | 06/09/2024  |
+| Theo        | Entradas e Saídas dos Processos  |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
+| Matheus        | Descrição Macro dos Processos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+| Pedro        | Descrição dos processos  |    06/09/2024       | 13/09/2024 | ✔️       | 06/09/2024  |
+| Nitai       | Processo 1,2,3 desenhos |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
+| Matheus        |  Processo 4,5 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+| Matheus        |  Processo 6,7 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
 
 ## Sprint 4
 
