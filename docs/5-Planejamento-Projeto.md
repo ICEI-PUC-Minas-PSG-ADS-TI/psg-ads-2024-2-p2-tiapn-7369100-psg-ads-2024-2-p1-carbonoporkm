@@ -71,7 +71,7 @@ Atualizado em: 21/04/2024
 | Pedro        | Descrição dos processos  |    06/09/2024       | 13/09/2024 | ✔️       | 06/09/2024  |
 | Nitai       | Processo 1,2,3 desenhos |    24/08/2024       | 13/09/2024| ✔️  |    01/09/2024  |
 | Matheus        |  Processo 4,5 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
-| Matheus        |  Processo 6,7 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
+| Felipe        |  Processo 6,7 desenhos   |    06/09/2024       | 13/09/2024 | ✔️    |      06/09/2024  |
 
 ## Sprint 4
 
