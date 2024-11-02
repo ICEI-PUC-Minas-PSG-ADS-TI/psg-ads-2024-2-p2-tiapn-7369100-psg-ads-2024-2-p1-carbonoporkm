@@ -1,6 +1,6 @@
 ## 3.3.4 Processo 4: Fornecimento de Sugestões Sustentáveis
 ### Descrição do Processo:
-Após o projeto da pegada de carbono, o sistema oferece sugestões de práticas sustentáveis ​​para reduzir as emissões. Essas sugestões são fundamentadas no tipo de transporte utilizado pelo usuário e nas distâncias percorridas. <br> 
+Após o projeto da pegada de carbono, o sistema oferece sugestões de práticas sustentáveis ​​para reduzir as emissões. Essas sugestões são fundamentadas no tipo de transporte utilizado pelo usuário e nas distâncias percorridas. <br><br>
 Modelagem do Processo (BPMN):<br>
 Início : O cálculo da pegada de carbono é concluído.<br>
 Passo 1 : O sistema verifica o tipo de veículo,distância e o cálculo.<br>
