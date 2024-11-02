@@ -13,28 +13,3 @@ Oferecer um painel com histórico de pegada de carbono, permitindo a comparaçã
 Personalização de recomendações com base nos resultados passados ​​do usuário.<br>
 
 ![Diagrama BPMN](../images/3.3-3diag.png)<br>
-
-## Detalhamento da Atividade:
- Após fazer o login, o usuário preenche os dados necessários, o sistema fará o cálculo da pegada de carbono, e como o usuário está logado irá salvar o resultado no banco de dados e mostrar na tela.
- 
-### Atividade 1: Usuário faz login no sistema
-| Campo | Tipo de Dado    | Restrições        | Valor Default |
-|-------|------------------|------------------|---------------|
-| Email | Caixa de texto  | Valor obrigatório |               |
-| Senha | Caixa de texto  | Valor obrigatório |               |
-
-| Comandos        | Destinos                       | Tipo    |
-|-----------------|--------------------------------|---------|
-| Fazer login     | Usuário faz login no sistema   | default |
-
-### Atividade 2: Inserir a distância percorrida e o tipo de veículo
-
-| Campo           | Tipo de Dado       | Restrições          | Valor Default |
-|-----------------|--------------------|---------------------|---------------|
-| Distância       | Número (decimal)   | Somente um valor    |               |
-| Tipo de veículo | Lista com veículos | Somente uma escolha |               |
-
-| Comandos | Destinos                       | Tipo    |
-|----------|--------------------------------|---------|
-| Calcular | Cálculo da pegada de carbono   | default |
-
