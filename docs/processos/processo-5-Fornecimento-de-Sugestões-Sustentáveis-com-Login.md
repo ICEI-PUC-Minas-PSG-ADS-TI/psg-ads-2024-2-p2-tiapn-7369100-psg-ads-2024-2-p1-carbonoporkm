@@ -14,10 +14,3 @@ Gamificação : Recompensas para usuários que seguem as sugestões.<br>
 
 ![Diagrama BPMN](../images/3.3-5diag.png)
 
-## Detalhamento da Atividade:
- O sistema busca no banco de dados as preferências do usuário, e gera sugestões a partir destas. O sistema mostra na tela um aviso, perguntando se o usuário quer ou não salvar as sugestões mostradas. O usuário pode aceitar ou não, se aceitar, as sugestões são salvas no banco de dados. 
-
- ## Atividade 1: Salvar Sugestões
-| Comandos         | Destinos                       | Tipo    |
-|------------------|--------------------------------|---------|
-| Salvar sugestões | Salvar ou não as sugestões     | boolean |
