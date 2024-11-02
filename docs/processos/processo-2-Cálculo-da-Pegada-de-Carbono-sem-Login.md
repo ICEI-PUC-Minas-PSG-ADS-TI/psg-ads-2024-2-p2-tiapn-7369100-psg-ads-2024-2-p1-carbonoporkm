@@ -14,17 +14,3 @@ Implementação de gráficos sonoros para ilustrar o impacto ambiental.<br>
 
 ![Diagrama de Personas](../images/3.3-2diag.png) 
 
-## Detalhamento das atividades:
-Será feito o cálculo da pegada de carbono e como o usuário está sem o login não irá se salvar o resultado somente mostrar na tela 
-
- ### Atividade 1: Preencher os Campos
-
-| Campo           | Tipo de Dado       | Restrições          | Valor Default |
-| --------------- | ------------------ | ------------------- | ------------- |
-| Distância       | Número (decimal)   | Somente um valor    | Null          |
-| Tipo de veículo | Lista com veículos | Somente uma escolha | Null          |
-
-| Comandos  | Destinos                     | Tipo    |
-| :-------: | :--------------------------: | :-----: |
-| Calcular  | Cálculo da pegada de carbono | default |
-
