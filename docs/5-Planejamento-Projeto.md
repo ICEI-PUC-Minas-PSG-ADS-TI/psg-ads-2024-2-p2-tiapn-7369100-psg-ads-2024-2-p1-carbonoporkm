@@ -37,8 +37,8 @@ Atualizado em: 21/04/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Pedro       | Introdução | 16/08/2024     | 13/09/2024 | ✔️    | 01/09/2024      |
-| Nitai        | Objetivos Gerais   | 20/08/2024     | 13/09/2024 | ✔️    |  05/09/2024               |
-| Carlos        | Histórias de usuário  | 05/09/2024       | 13/09/2024 | ✔️     | 05/09/2024                 |
+| Nitai        | Objetivos Gerais   | 20/08/2024     | 13/09/2024 | ✔️    |  05/09/2024 |
+| Carlos        | Histórias de usuário  | 05/09/2024       | 13/09/2024 | ✔️     | 05/09/2024 |
 | Felipe        | Personas  |    06/09/2024       | 13/09/2024 | ✔️    |       | 06/09/2024  |
 | Theo        | Objetivos específicos  |    24/08/2024       | 13/09/2024| ✔️    |       | 01/09/2024  |
 | Matheus        | Problema  |    06/09/2024       | 13/09/2024 | ✔️    |       | 06/09/2024  |
