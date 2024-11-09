@@ -9,14 +9,14 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 _Descrição da tela principal do sistema._
 
-[`Tela principal do sistema`](images/tela_1)
+[`Tela principal do sistema`](images/)
 
 
 ## 6.2. Telas do processo 1
 
 _Descrição da tela relativa à atividade 1._
 
-[`Tela da atividade 1`](images/)
+[`Tela da atividade 1`](images/tela_1.png)
 
 _Descrição da tela relativa à atividade 2._
 
