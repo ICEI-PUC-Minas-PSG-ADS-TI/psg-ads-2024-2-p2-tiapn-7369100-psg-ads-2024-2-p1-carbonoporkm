@@ -5,29 +5,29 @@
 
 _Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma._
 
-## 6.1. Tela principal do sistema
+## 6.1.1 Tela principal do sistema
 
 _Descrição da tela principal do sistema._
 
 [`Tela principal do sistema`](images/)
 
 
-## 6.2. Telas do processo 1
+## 6.1.2. Telas do processo 1
 
 _Descrição da tela relativa à atividade 1._
 
-[`Tela da atividade 1`](images/tela_1.png)
+![AS-IS](./images/tela_1.png)
 
 _Descrição da tela relativa à atividade 2._
 
 [`Tela da atividade 2`](images/)
 
 
-## 6.3. Telas do processo 2
+## 6.1.3. Telas do processo 2
 
 _Descrição da tela relativa à atividade 1._
 
-[`Tela da atividade 1`](images/)
+![AS-IS](./images/tela_2.png)
 
 _Descrição da tela relativa à atividade 2._
 
