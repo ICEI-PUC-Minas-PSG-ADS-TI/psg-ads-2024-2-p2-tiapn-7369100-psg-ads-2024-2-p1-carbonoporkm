@@ -49,6 +49,9 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 ## Histórico de versões
 
+* 0.1.2
+    * Atualização do documento 5. Planejamento do Projeto.
+    * Adição de telas no documento 6. Interface do sistema.
 * 0.1.1
     * Ajuste na formatação da documentação de modelagem dos processos
     * Tabelas de protótipos de telas movidas da documentação de modelagem dos processos para seu local correto no documento 4.2.
