@@ -14,13 +14,9 @@ _Descrição da tela principal do sistema._
 
 ## 6.1.2. Telas do processo 1
 
-_Descrição da tela relativa à atividade 1._
+_Nesta página o usuário pode preencher os campos com seus dados de nome, email e senha, para registra-lo no sistema._
 
 ![AS-IS](./images/tela_1.png)
-
-_Descrição da tela relativa à atividade 2._
-
-[`Tela da atividade 2`](images/)
 
 
 ## 6.1.3. Telas do processo 2
