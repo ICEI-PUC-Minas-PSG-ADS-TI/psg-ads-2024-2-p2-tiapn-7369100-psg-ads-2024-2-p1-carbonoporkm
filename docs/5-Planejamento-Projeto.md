@@ -88,12 +88,21 @@ Atualizado em: 01/11/2024
 
 ## Sprint 4
 
-Atualizado em: 01/11/2024
+Atualizado em: 08/11/2024
 
 | Responsável | Tarefa/Requisito                                 | Iniciado em | Prazo      | Status | Terminado em    |
 | :----       |    :----                                         |      :----: | :----:     | :----: | :----:     |
-| xxx         | Criar a interface de telas para o processo 1 e 2.|             | 08/11/2024 |  ❌   |            |
-| xxx         | Criar tabelas do banco para o processo 1 e 2.    |             | 08/11/2024 |  ❌   |            |
+| Nitai       | Criar a interface de telas para o processo 1.    | 11/10/2024  | 08/11/2024 |  ✔️   | 08/11/2024 |
+| Nitai       | Criar a interface de telas para a home page.     | 08/11/2024  | 08/11/2024 |  ⌛    | 08/11/2024 |
+| Felipe      | Criar a interface de telas para o processo 2.    | 11/10/2024  | 08/11/2024 |  ⌛    | 00/11/2024 |
+| Pedro       | Criar a interface de telas para o processo 3.    | 11/10/2024  | 22/11/2024 |  📝   | 00/11/2024 |
+| Matheus     | Criar a interface de telas para o processo 4.    | 11/10/2024  | 22/11/2024 |  📝   | 00/11/2024 |
+| Carlos      | Criar a interface de telas para o processo 5.    | 11/10/2024  | 22/11/2024 |  📝   | 00/11/2024 |
+| Pedro       | Criar tabelas do banco para o processo 1.        | 01/10/2024  | 08/11/2024 |  ✔️   | 06/11/2024 |
+| Pedro       | Criar tabelas do banco para o processo 2.        | 08/11/2024  | 08/11/2024 |  ✔️   | 06/11/2024 |
+| Theo        | Criar tabelas do banco para o processo 3.        | 08/11/2024  | 22/11/2024 |  ✔️   | 08/11/2024 |
+| Felipe      | Criar tabelas do banco para o processo 4.        | 08/11/2024  | 22/11/2024 |  ✔️   | 08/11/2024 |
+| Nitai       | Criar tabelas do banco para o processo 5.        | 08/11/2024  | 22/11/2024 |  ✔️   | 08/11/2024 |
 
 Legenda:
 - ✔️: terminado
