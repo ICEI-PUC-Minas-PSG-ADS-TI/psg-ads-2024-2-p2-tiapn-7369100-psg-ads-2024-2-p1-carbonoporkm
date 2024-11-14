@@ -93,7 +93,7 @@ Atualizado em: 08/11/2024
 | Responsável | Tarefa/Requisito                                 | Iniciado em | Prazo      | Status | Terminado em    |
 | :----       |    :----                                         |      :----: | :----:     | :----: | :----:     |
 | Nitai       | Criar a interface de telas para o processo 1.    | 11/10/2024  | 08/11/2024 |  ✔️   | 08/11/2024 |
-| Nitai       | Criar a interface de telas para a home page.     | 08/11/2024  | 08/11/2024 |  ⌛    | 08/11/2024 |
+| Nitai       | Criar a interface de telas para a home page.     | 08/11/2024  | 08/11/2024 |  ✔️   | 14/11/2024 |
 | Felipe      | Criar a interface de telas para o processo 2.    | 11/10/2024  | 08/11/2024 |  ⌛    | 00/11/2024 |
 | Pedro       | Criar a interface de telas para o processo 3.    | 11/10/2024  | 22/11/2024 |  📝   | 00/11/2024 |
 | Matheus     | Criar a interface de telas para o processo 4.    | 11/10/2024  | 22/11/2024 |  📝   | 00/11/2024 |
