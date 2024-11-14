@@ -7,17 +7,18 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 ## 6.1.1 Tela principal do sistema
 
-_Descrição da tela principal do sistema._
+_Esta tela apresenta uma breve descrição do objetivo do site, com uma opção de fazer log-in e uma opção para calcular a pegada._
 
-[`Tela principal do sistema`](images/)
+[`Tela principal do sistema`](images/tela_home.png)
 
 
 ## 6.1.2. Telas do processo 1
 
 _Nesta página o usuário pode preencher os campos com seus dados de nome, email e senha, para registra-lo no sistema._
 
-![AS-IS](./images/tela_1.png)
+![register](./images/tela_1.png)
 
+![login](./images/tela_login.png)
 
 ## 6.1.3. Telas do processo 2
 
