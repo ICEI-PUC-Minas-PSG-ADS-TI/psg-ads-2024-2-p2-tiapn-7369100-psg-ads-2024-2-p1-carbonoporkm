@@ -9,7 +9,7 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 _Esta tela apresenta uma breve descrição do objetivo do site, com uma opção de fazer log-in e uma opção para calcular a pegada._
 
-[`Tela principal do sistema`](images/tela_home.png)
+![`Tela principal do sistema`](images/tela_home.png)
 
 
 ## 6.1.2. Telas do processo 1
