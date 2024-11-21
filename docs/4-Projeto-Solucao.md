@@ -165,54 +165,55 @@ O usuario irá escolher a instuição e o valor que quer doar para nosso site fa
 <code>
 
 CREATE TABLE Usuario 
-( 
- ID_Usuario (PK) INT PRIMARY KEY,  
- Nome INT,  
- Email INT,  
- Senha INT,  
- idViagem INT,  
- idDoação INT,  
- idDoação INT,  
-); 
+(
+    ID_Usuario INT PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,  
+    Email VARCHAR(100) NOT NULL,  
+    Senha VARCHAR(100) NOT NULL,  
+    idViagem INT,  
+    idDoacao INT,  
+    idCalc_Salvos INT
+);
 
 CREATE TABLE Viagem 
-( 
- Origem INT,  
- ID_Usuario (PK) INT,  
- ID_Viagem (PK)) INT PRIMARY KEY,  
- Destino INT,  
- Distancia INT,  
- Data INT,  
- ID_veiculo(FK) INT,  
-); 
-
-CREATE TABLE Veículo 
-( 
- Tipo INT,  
- ID_Veiculo (PK) INT PRIMARY KEY,  
- Emissão_CO2_km INT,  
- idViagem INT,  
-); 
-
-CREATE TABLE Pegada de Carbono 
-( 
- ID_Usuario (FK) INT,  
- ID_Pegada (PK) INT PRIMARY KEY,  
- Total_Emissões (g CO2) INT,  
- Data_Calculo INT,  
- ID_Veiculo (FK) INT,  
- Resultado INT,  
- idVeículo INT,  
-); 
-
-CREATE TABLE Doação 
-( 
- Instituicao INT,  
- Data_Doacao INT,  
- Valor INT,  
- ID_Usuario (FK) INT,  
- ID_Doacao (PK) INT PRIMARY KEY,  
+(
+    ID_Viagem INT PRIMARY KEY,  
+    Origem VARCHAR(100) NOT NULL,  
+    Destino VARCHAR(100) NOT NULL,  
+    Distancia DECIMAL(10, 2) NOT NULL,  
+    Data DATE NOT NULL,  
+    ID_Usuario INT,
+    FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario)
 );
+
+CREATE TABLE Veiculo 
+(
+    ID_Veiculo INT PRIMARY KEY,
+    Tipo VARCHAR(50) NOT NULL,  
+    Emissao_CO2_km DECIMAL(10, 2) NOT NULL,  
+    idViagem INT,
+    FOREIGN KEY (idViagem) REFERENCES Viagem(ID_Viagem)
+);
+
+CREATE TABLE Pegada_Carbono (
+    ID_Pegada INT PRIMARY KEY,  
+    Total_Emissoes_gCO2 DECIMAL(10, 2) NOT NULL,  
+    Resultado DECIMAL(10, 2) NOT NULL,  
+    ID_Veiculo INT NOT NULL,
+    ID_Viagem INT NOT NULL,
+    idCalc_Salvos INT,
+    FOREIGN KEY (ID_Veiculo) REFERENCES Veiculo(ID_Veiculo),
+    FOREIGN KEY (ID_Viagem) REFERENCES Viagem(ID_Viagem)
+);
+
+CREATE TABLE Doacao (
+    ID_Doacao INT PRIMARY KEY,  
+    Instituicao VARCHAR(100) NOT NULL,  
+    Data_Doacao DATE NOT NULL,  
+    Valor DECIMAL(10, 2) NOT NULL,  
+    ID_Usuario INT NOT NULL,
+    FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario)
+)
 
 </code>
 
