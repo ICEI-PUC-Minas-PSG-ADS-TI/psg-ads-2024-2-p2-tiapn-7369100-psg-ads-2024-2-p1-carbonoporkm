@@ -5,26 +5,26 @@
 
 _Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma._
 
-## 6.1.1 Tela principal do sistema
+## 6.1.0 Tela principal do sistema
 
 _Esta tela apresenta uma breve descrição do objetivo do site, com uma opção de fazer log-in e uma opção para calcular a pegada._
 
 ![`Tela principal do sistema`](images/tela_home.png)
 
 
-## 6.1.2. Telas do processo 1
+## 6.1.1 Telas do processo 1
 
 _Nesta página o usuário pode preencher os campos com seus dados de nome, email e senha, para registra-lo no sistema._
 
-![register](./images/tela_1.png)
+![register](./images/tela_registro.png)
 
 ![login](./images/tela_login.png)
 
-## 6.1.3. Telas do processo 2
+## 6.1.2 Telas do processo 2
 
 _Descrição da tela relativa à atividade 1._
 
-![AS-IS](./images/tela_2.png)
+![AS-IS](./images/tela_calculoSL.png)
 
 _Descrição da tela relativa à atividade 2._
 
@@ -34,29 +34,25 @@ _Descrição da tela relativa à atividade 2._
 
 _Descrição da tela relativa à atividade 1._
 
-![AS-IS](./images/tela_3.png)
+![AS-IS](./images/tela_calculoCL.png)
 
 _Descrição da tela relativa à atividade 2._
 
-[`Tela da atividade 2`](images/)
-
-## 6.1.3. Telas do processo 4
+## 6.1.4 Telas do processo 4
 
 _Descrição da tela relativa à atividade 1._
 
-![AS-IS](./images/tela_4.png)
+![AS-IS](./images/tela_resultadoSL.png)
 
-_Descrição da tela relativa à atividade 2._
-
-[`Tela da atividade 2`](images/)
-
-## 6.1.3. Telas do processo 5
+## 6.1.5. Telas do processo 5
 
 _Descrição da tela relativa à atividade 1._
 
-![AS-IS](./images/tela_5.png)
+![AS-IS](./images/tela_resultadoCL.png)
 
-_Descrição da tela relativa à atividade 2._
+## 6.1.6 Telas do processo 6
 
-[`Tela da atividade 2`](images/)
+_Descrição da tela relativa à atividade 1._
+
+![AS-IS](./images/tela_doar.png)
 
