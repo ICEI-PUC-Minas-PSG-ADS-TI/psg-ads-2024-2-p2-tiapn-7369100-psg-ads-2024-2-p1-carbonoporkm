@@ -213,7 +213,7 @@ CREATE TABLE Doacao (
 
 </code>
 
-[Exemplos de uso das tabelas]("6a-Tabelas.md")<br>
+[Exemplos de uso das tabelas](6a-Tabelas.md)<br>
 
 ### 4.4. Tecnologias
 
