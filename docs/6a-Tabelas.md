@@ -79,7 +79,7 @@ ORDER BY 4 DESC
 ```
 ![Tabela](images/6.Exemplo1.png)
 
-<h2> 2- Consulta de todas as viagens e suas informações relevantes <br>(Nome, Veiculo, Distancia, Origem, Destino e Data)</h2>
+<h2> 2- Consulta de todas as viagens e suas informações relevantes <br>(Nome, Veiculo, Distancia, Origem, Destino, Data e Distância)</h2>
 
 ```
 SELECT u.Nome, ve.Tipo AS Veiculo, vi.Origem, vi.Destino, vi.Data, vi.Distancia
