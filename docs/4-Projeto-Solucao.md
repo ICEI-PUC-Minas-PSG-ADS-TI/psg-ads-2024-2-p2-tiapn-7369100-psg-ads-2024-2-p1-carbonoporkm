@@ -173,6 +173,13 @@ CREATE TABLE Usuario
     idCalc_Salvos INT
 );
 
+CREATE TABLE Veiculo 
+(
+    ID_Veiculo INT PRIMARY KEY,
+    Tipo VARCHAR(50) NOT NULL,  
+    Emissao_CO2_km DECIMAL(10, 2) NOT NULL
+);
+
 CREATE TABLE Viagem 
 (
     ID_Viagem INT PRIMARY KEY,  
@@ -184,13 +191,6 @@ CREATE TABLE Viagem
     ID_Veiculo INT,
     FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario),
     FOREIGN KEY (ID_Veiculo) REFERENCES Veiculo(ID_Veiculo)
-);
-
-CREATE TABLE Veiculo 
-(
-    ID_Veiculo INT PRIMARY KEY,
-    Tipo VARCHAR(50) NOT NULL,  
-    Emissao_CO2_km DECIMAL(10, 2) NOT NULL
 );
 
 CREATE TABLE Pegada_Carbono (
