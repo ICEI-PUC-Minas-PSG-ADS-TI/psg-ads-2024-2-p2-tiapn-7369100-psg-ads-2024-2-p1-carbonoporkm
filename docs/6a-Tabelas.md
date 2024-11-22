@@ -68,6 +68,7 @@ INSERT INTO Doacao (ID_Doacao, Instituicao, Data_Doacao, Valor, ID_Usuario) VALU
 <h1> EXEMPLOS DE REGISTROS </h1>
 
 <h2> 1- Consulta de todos os usuários, mostrando seu nome, email, quantidade de pegadas salvas e quantidade de doações, ordenado de forma decrescente de acordo com esta.</h2>
+
 ```
 SELECT u.Nome, u.Email, Count(DISTINCT p.ID_Pegada) AS Pegadas_Salvas, Count(DISTINCT d.ID_Doacao) AS Doacoes_Feitas
 FROM Usuario u
@@ -80,9 +81,10 @@ ORDER BY 4 DESC
 
 <h2> 2- Consulta de todas as viagens e suas informações relevantes <br>(Nome, Veiculo, Distancia, Origem, Destino e Data)</h2>
 
+```
 SELECT u.Nome, ve.Tipo AS Veiculo, vi.Origem, vi.Destino, vi.Data, vi.Distancia
 FROM Usuario u
 JOIN Viagem vi ON vi.ID_Usuario = u.ID_Usuario
 JOIN Veiculo ve ON vi.ID_Veiculo = ve.ID_Veiculo
-
+```
 ![Tabela](images/6.Exemplo2.png)
