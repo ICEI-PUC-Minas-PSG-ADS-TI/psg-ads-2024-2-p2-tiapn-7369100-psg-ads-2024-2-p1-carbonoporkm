@@ -65,7 +65,7 @@ INSERT INTO Doacao (ID_Doacao, Instituicao, Data_Doacao, Valor, ID_Usuario) VALU
 (10, 'Mundo Sustentável', '2024-04-12', 190.0, 9)
 ```
 
-<h1> EXEMPLOS DE REGISTROS </h1>
+<h1> EXEMPLOS DE CONSULTAS </h1>
 
 <h2> 1- Consulta de todos os usuários, mostrando seu nome, email, quantidade de pegadas salvas e quantidade de doações, ordenado de forma decrescente de acordo com esta.</h2>
 
