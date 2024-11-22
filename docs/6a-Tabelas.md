@@ -1,7 +1,6 @@
 <h1> INSERÇÃO DE DADOS </h1>
 
-<code>
-INSERT INTO Usuario (ID_Usuario, Nome, Email, Senha, idCalc_Salvos) VALUES 
+`INSERT INTO Usuario (ID_Usuario, Nome, Email, Senha, idCalc_Salvos) VALUES 
 (1, 'João Pedro', 'joao.pedro@email.com', 'senha1234', 101),
 (2, 'Pedro Lima', 'pedro.lima@email.com', 'senha4567', 102),
 (3, 'Carlos Henrique', 'carlos.henrique@email.com', 'senha7890', 103),
@@ -63,7 +62,7 @@ INSERT INTO Doacao (ID_Doacao, Instituicao, Data_Doacao, Valor, ID_Usuario) VALU
 (8, 'Verde Esperança', '2024-03-30', 170.0, 9),
 (9, 'Salve o Verde', '2024-01-28', 160.0, 9),
 (10, 'Mundo Sustentável', '2024-04-12', 190.0, 9)
-</code>
+`
 
 <h1> EXEMPLOS DE REGISTROS </h1>
 
