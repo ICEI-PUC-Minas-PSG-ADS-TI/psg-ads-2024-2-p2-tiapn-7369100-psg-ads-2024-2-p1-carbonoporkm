@@ -170,8 +170,6 @@ CREATE TABLE Usuario
     Nome VARCHAR(100) NOT NULL,  
     Email VARCHAR(100) NOT NULL,  
     Senha VARCHAR(100) NOT NULL,  
-    idViagem INT,  
-    idDoacao INT,  
     idCalc_Salvos INT
 );
 
@@ -183,26 +181,24 @@ CREATE TABLE Viagem
     Distancia DECIMAL(10, 2) NOT NULL,  
     Data DATE NOT NULL,  
     ID_Usuario INT,
-    FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario)
+    ID_Veiculo INT,
+    FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario),
+    FOREIGN KEY (ID_Veiculo) REFERENCES Veiculo(ID_Veiculo)
 );
 
 CREATE TABLE Veiculo 
 (
     ID_Veiculo INT PRIMARY KEY,
     Tipo VARCHAR(50) NOT NULL,  
-    Emissao_CO2_km DECIMAL(10, 2) NOT NULL,  
-    idViagem INT,
-    FOREIGN KEY (idViagem) REFERENCES Viagem(ID_Viagem)
+    Emissao_CO2_km DECIMAL(10, 2) NOT NULL
 );
 
 CREATE TABLE Pegada_Carbono (
     ID_Pegada INT PRIMARY KEY,  
     Total_Emissoes_gCO2 DECIMAL(10, 2) NOT NULL,  
     Resultado DECIMAL(10, 2) NOT NULL,  
-    ID_Veiculo INT NOT NULL,
     ID_Viagem INT NOT NULL,
     idCalc_Salvos INT,
-    FOREIGN KEY (ID_Veiculo) REFERENCES Veiculo(ID_Veiculo),
     FOREIGN KEY (ID_Viagem) REFERENCES Viagem(ID_Viagem)
 );
 
