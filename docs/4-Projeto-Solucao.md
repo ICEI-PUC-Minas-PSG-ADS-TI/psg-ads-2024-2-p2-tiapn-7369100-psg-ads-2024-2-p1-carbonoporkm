@@ -207,13 +207,13 @@ CREATE TABLE Doacao (
     Instituicao VARCHAR(100) NOT NULL,  
     Data_Doacao DATE NOT NULL,  
     Valor DECIMAL(10, 2) NOT NULL,  
-    ID_Usuario INT NOT NULL,
+    ID_Usuario INT,
     FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario)
 )
 
 </code>
 
-
+[Exemplos de uso das tabelas](./processos/6a-Tabelas.md")<br>
 
 ### 4.4. Tecnologias
 
