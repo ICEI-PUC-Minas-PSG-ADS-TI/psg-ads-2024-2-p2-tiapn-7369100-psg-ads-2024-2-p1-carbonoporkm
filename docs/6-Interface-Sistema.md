@@ -14,7 +14,7 @@ _Esta tela apresenta uma breve descrição do objetivo do site, com uma opção 
 
 ## 6.1.1 Telas do processo 1
 
-_Nesta página o usuário pode preencher os campos com seus dados de nome, email e senha, para registra-lo no sistema._
+Nesta página o usuário pode preencher os campos com seus dados de nome, email e senha, para registra-lo no sistema.
 
 ![register](./images/tela_registro.png)
 
@@ -22,37 +22,40 @@ _Nesta página o usuário pode preencher os campos com seus dados de nome, email
 
 ## 6.1.2 Telas do processo 2
 
-_Descrição da tela relativa à atividade 1._
+Nesta página o usuário insere os dados de dois locais, calculando a distância entre eles em Km, seguindo rotas automobilisticas.
 
 ![AS-IS](./images/tela_calculoSL.png)
 
-_Descrição da tela relativa à atividade 2._
-
-[`Tela da atividade 2`](images/)
-
 ## 6.1.3. Telas do processo 3
 
-_Descrição da tela relativa à atividade 1._
+Nesta página o usuário insere os dados de dois locais, calculando a distância entre eles em Km, seguindo rotas automobilisticas. Por estar logado no site, é gerado um novo registro do elemento Viagens no banco de dados, para posteriormente poder ser salvo.
 
 ![AS-IS](./images/tela_calculoCL.png)
 
-_Descrição da tela relativa à atividade 2._
-
 ## 6.1.4 Telas do processo 4
 
-_Descrição da tela relativa à atividade 1._
+Nesta página é calculado o valor da pegada de carbono do usuário, assim como as outras informações que inseriu. Em seguida, o site escolhe, de acordo com as informações dadas, melhores alternativas para diminuir esta pegada, se possível, além de instituições que contribuem para a causa, caso o usuário tiver interesse de fazer uma doação.
 
 ![AS-IS](./images/tela_resultadoSL.png)
 
 ## 6.1.5. Telas do processo 5
 
-_Descrição da tela relativa à atividade 1._
+Nesta página é calculado o valor da pegada de carbono do usuário, assim como as outras informações que inseriu. Em seguida, o site escolhe, de acordo com as informações dadas, melhores alternativas para diminuir esta pegada, se possível, além de instituições que contribuem para a causa, caso o usuário tiver interesse de fazer uma doação. Por estar logado, o usuário poderá escolher entre salvar ou não este resultado para visualizar posteriormente.
 
 ![AS-IS](./images/tela_resultadoCL.png)
 
+(Página onde os resultados salvos são exibidos)
+
+![AS-IS](./images/tela_ressalvos.png)
+
 ## 6.1.6 Telas do processo 6
 
-_Descrição da tela relativa à atividade 1._
+Nesta página, após selecionar a instituição que tem interesse em fazer uma doação, é exibido mais informações a respeito da instituição, e um local designado para pagamento, onde se define o valor e o método de pagamento, para doar à mesma instituição. Esta doação será anônima.
+
+![AS-IS](./images/tela_doarSL.png)
+
+## 6.1.6 Telas do processo 7
+
+Nesta página, após selecionar a instituição que tem interesse em fazer uma doação, é exibido mais informações a respeito da instituição, e um local designado para pagamento, onde se define o valor e o método de pagamento, para doar à mesma instituição. Por estar logado, esta doação estará associada a seu nome.
 
 ![AS-IS](./images/tela_doar.png)
-
