@@ -49,6 +49,9 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 ## Histórico de versões
 
+* 0.2.0
+    * Novo documento gerado: 6a-Tabelas, contendo a Inserção de 53 registros no total em todas as tabelas do banco de dados, em seguida é trago alguns exemplos de uso destes dados
+    * Atualização de telas no documento 6. Interface do sistema.
 * 0.1.2
     * Atualização do documento 5. Planejamento do Projeto.
     * Adição de telas no documento 6. Interface do sistema.
