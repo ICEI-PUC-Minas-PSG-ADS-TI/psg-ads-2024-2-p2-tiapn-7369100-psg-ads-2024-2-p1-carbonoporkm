@@ -89,7 +89,7 @@ JOIN Veiculo ve ON vi.ID_Veiculo = ve.ID_Veiculo
 ```
 ![Tabela](images/6.Exemplo2.png)
 
-<h2> 3- Consulta de informações de viagens, tal como da pegada de tais viagens, de um usuário específico (Lucas Martins)</h2>
+<h2> 3- Consulta de informações de viagens, tal como da pegada de tais viagens, de um usuário específico (Pedro Lima)</h2>
 
 ```
 SELECT u.Nome, vi.Data, vi.Distancia, vi.Origem, vi.Destino, ve.Tipo, p.Resultado, p.Total_Emissoes_gCO2
