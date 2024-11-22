@@ -22,13 +22,13 @@ Nesta página o usuário pode preencher os campos com seus dados de nome, email 
 
 ## 6.1.2 Telas do processo 2
 
-Nesta página o usuário insere os dados de dois locais, calculando a distância entre eles em Km, seguindo rotas automobilisticas.
+Nesta página o usuário insere os dados de dois locais, calculando a distância entre eles em Km, seguindo rotas automobilisticas, e o veículo que utiliza nessa rota, para posteriormente fazer o calculo da pegada.
 
 ![AS-IS](./images/tela_calculoSL.png)
 
 ## 6.1.3. Telas do processo 3
 
-Nesta página o usuário insere os dados de dois locais, calculando a distância entre eles em Km, seguindo rotas automobilisticas. Por estar logado no site, é gerado um novo registro do elemento Viagens no banco de dados, para posteriormente poder ser salvo.
+Nesta página o usuário insere os dados de dois locais, calculando a distância entre eles em Km, seguindo rotas automobilisticas, e o veículo que utiliza nessa rota, para posteriormente fazer o calculo da pegada. Por estar logado no site, é gerado um novo registro do elemento Viagens no banco de dados, para posteriormente poder ser salvo.
 
 ![AS-IS](./images/tela_calculoCL.png)
 
