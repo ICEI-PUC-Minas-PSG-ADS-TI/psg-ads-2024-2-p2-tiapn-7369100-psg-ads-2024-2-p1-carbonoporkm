@@ -56,11 +56,11 @@ INSERT INTO Doacao (ID_Doacao, Instituicao, Data_Doacao, Valor, ID_Usuario) VALU
 (1, 'Instituto Verde', '2024-01-05', 150.0, 1),
 (2, 'Fundo Amazônia', '2024-03-07', 200.0, 1),
 (3, 'Instituto Verde', '2024-02-12', 120.0, 3),
-(4, 'Fundo Amazônia', '2024-04-20', 250.0, 3),
+(4, 'Fundo Amazônia', '2024-04-20', 250.0, 5),
 (5, 'Coração Verde', '2024-03-15', 100.0, 5),
 (6, 'Fundo Amazônia', '2024-05-10', 180.0, 5),
-(7, 'Planeta Limpo', '2024-02-25', 130.0, 6),
-(8, 'Verde Esperança', '2024-03-30', 170.0, 6),
+(7, 'Planeta Limpo', '2024-02-25', 130.0, 9),
+(8, 'Verde Esperança', '2024-03-30', 170.0, 9),
 (9, 'Fundo Amazônia', '2024-01-28', 160.0, 9),
 (10, 'Mundo Sustentável', '2024-04-12', 190.0, 9)
 ```
