@@ -54,14 +54,14 @@ INSERT INTO Pegada_Carbono (ID_Pegada, Total_Emissoes_gCO2, Resultado, ID_Viagem
 
 INSERT INTO Doacao (ID_Doacao, Instituicao, Data_Doacao, Valor, ID_Usuario) VALUES 
 (1, 'Instituto Verde', '2024-01-05', 150.0, 1),
-(2, 'Planeta Limpo', '2024-03-07', 200.0, 1),
-(3, 'Árvore do Futuro', '2024-02-12', 120.0, 5),
-(4, 'Fundo Amazônia', '2024-04-20', 250.0, 5),
+(2, 'Fundo Amazônia', '2024-03-07', 200.0, 1),
+(3, 'Instituto Verde', '2024-02-12', 120.0, 3),
+(4, 'Fundo Amazônia', '2024-04-20', 250.0, 3),
 (5, 'Coração Verde', '2024-03-15', 100.0, 5),
-(6, 'Instituto EcoVida', '2024-05-10', 180.0, 5),
+(6, 'Fundo Amazônia', '2024-05-10', 180.0, 5),
 (7, 'Planeta Limpo', '2024-02-25', 130.0, 6),
-(8, 'Verde Esperança', '2024-03-30', 170.0, 9),
-(9, 'Salve o Verde', '2024-01-28', 160.0, 9),
+(8, 'Verde Esperança', '2024-03-30', 170.0, 6),
+(9, 'Fundo Amazônia', '2024-01-28', 160.0, 9),
 (10, 'Mundo Sustentável', '2024-04-12', 190.0, 9)
 ```
 
@@ -88,3 +88,25 @@ JOIN Viagem vi ON vi.ID_Usuario = u.ID_Usuario
 JOIN Veiculo ve ON vi.ID_Veiculo = ve.ID_Veiculo
 ```
 ![Tabela](images/6.Exemplo2.png)
+
+<h2> 3- Consulta de informações de viagens, tal como da pegada de tais viagens, de um usuário específico (Lucas Martins)</h2>
+
+```
+SELECT u.Nome, vi.Data, vi.Distancia, vi.Origem, vi.Destino, ve.Tipo, p.Resultado, p.Total_Emissoes_gCO2
+FROM Usuario u
+JOIN Viagem vi ON vi.ID_Usuario = u.ID_Usuario
+JOIN Veiculo ve ON vi.ID_Veiculo = ve.ID_Veiculo
+JOIN Pegada_Carbono p ON p.ID_Viagem = vi.ID_Viagem
+WHERE u.Nome = 'Pedro Lima'
+```
+![Tabela](images/6.Exemplo3.png)
+
+<h2> 4- Consulta todas as instituições que receberam doações, mostrando o total doado por todos, e a quantidade de doações</h2>
+
+```
+SELECT Instituicao, SUM(Valor) as Total_Doado, COUNT(DISTINCT ID_Usuario) AS Qntd_Doacao
+FROM Doacao
+GROUP BY instituicao
+ORDER BY 3 DESC, 2 DESC
+```
+![Tabela](images/6.Exemplo4.png)
