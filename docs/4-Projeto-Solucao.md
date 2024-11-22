@@ -152,13 +152,13 @@ O usuario irá escolher a instuição e o valor que quer doar para nosso site fa
 
 #### 4.3.1 Modelo ER
 
-![Diagrama DER](images/4.2DER.png)
+![Diagrama DER](images/4.3DER.png)
 
 
 
 #### 4.3.2 Esquema Relacional
 
-![Classes](images/D_Classes.png)
+![Classes](images/4.3Classes.png)
 
 #### 4.3.3 Modelo Físico
 
