@@ -103,7 +103,8 @@ Atualizado em: 22/11/2024
 | Theo        | Criar exemplo de uso de tabelas 2                | 08/11/2024  | 22/11/2024 |  ✔️   | 20/11/2024 |
 | Felipe      | Criar exemplo de uso de tabelas 3                | 08/11/2024  | 22/11/2024 |  ✔️   | 22/11/2024 |
 | Nitai       | Criar exemplo de uso de tabelas 4                | 08/11/2024  | 22/11/2024 |  ✔️   | 21/11/2024 |
-| Nitai       | Definir Indicador (x)                            | --/--/2024  | 29/11/2024 |  ❌   | --/--/2024 |
+| -----       | Definir Indicador 1 (x)                          | --/--/2024  | 29/11/2024 |  ❌   | --/--/2024 |
+| -----       | Definir Indicador 2 (x)                          | --/--/2024  | 29/11/2024 |  ❌   | --/--/2024 |
 
 Legenda:
 - ✔️: terminado
