@@ -59,3 +59,7 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 Nesta página, após selecionar a instituição que tem interesse em fazer uma doação, é exibido mais informações a respeito da instituição, e um local designado para pagamento, onde se define o valor e o método de pagamento, para doar à mesma instituição. Por estar logado, esta doação estará associada a seu nome.
 
 ![AS-IS](./images/tela_doar.png)
+
+# 6.2 Indicadores
+
+
