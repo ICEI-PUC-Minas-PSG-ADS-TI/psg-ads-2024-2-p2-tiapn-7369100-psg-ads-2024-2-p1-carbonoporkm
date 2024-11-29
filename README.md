@@ -48,6 +48,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 
 ## Histórico de versões
+* 0.2.2
+    * Adição de 4 Indicadores no documento 6. Interface do sistema
 * 0.2.1
     * Adição de telas no documento 6. Interface do sistema, além de suas descrições.
     * Ajuste no modelo Fisico do banco de dados
