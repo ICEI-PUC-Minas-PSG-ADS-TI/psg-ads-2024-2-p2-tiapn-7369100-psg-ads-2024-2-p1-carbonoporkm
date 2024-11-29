@@ -64,7 +64,7 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 - Medida: Porcentagem
 - Prioridade de cálculo: ??
 - Responsável: Administrador do site
-- Fórmula: Quantidade total de doações / Quantidade total de viagens
+- Fórmula: # total de doações / # total de viagens
 - Realizar mensalmente por 4 meses
 - Variáveis: Quantidade total de doações, Quantidade total de viagens
 - O total de doações pode ser adquirido através do comando COUNT(DISTINCT ID_Doacao) com a tabela Doacao; E a quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem
@@ -74,17 +74,17 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 - Medida: Quantidade de viagens por mês
 - Prioridade de cálculo: ??
 - Responsável: Administrador do site
-- Fórmula: Quantidade(Viagens)/(Quantidade de meses do site no ar)
+- Fórmula: # total de viagens/(Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12))
 - Realizar mensalmente por um ano
-- Variáveis: Quantidade distinta de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
-- A quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem. Quantidade de meses é adquirida pela formula: Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12)
+- Variáveis: # de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
+- A quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem. Quantidade de meses é adquirida pela formula: (Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12)
 - Para qualquer usuário
 
 ## Doações feitas por viagem para usuários logados
 - Medida: Porcentagem
 - Prioridade de cálculo: ??
 - Responsável: Administrador do site
-- Fórmula: Quantidade total de doações de usuários logados / Quantidade total de viagens de usuários logados
+- Fórmula: # total de doações de usuários logados / # total de viagens de usuários logados
 - Realizar mensalmente por 4 meses
 - Variáveis: Quantidade total de doações, Quantidade total de viagens
 - O total de doações pode ser adquirido através do comando COUNT(DISTINCT ID_Doacao) com a tabela Doacao, **onde ID_Usuario não é nulo**; E a quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem, **onde ID_Usuario não é nulo**
@@ -94,7 +94,7 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 - Medida: Quantidade de viagens por mês
 - Prioridade de cálculo: ??
 - Responsável: Administrador do site
-- Fórmula: Quantidade total de viagens de usuários logados/(Quantidade de meses do site no ar)
+- Fórmula: # total de viagens de usuários logados/(Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12))
 - Realizar mensalmente por um ano
 - Variáveis: Quantidade distinta de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
 - A quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem, **onde ID_Usuario não é nulo**. Quantidade de meses é adquirida pela formula: Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12)
