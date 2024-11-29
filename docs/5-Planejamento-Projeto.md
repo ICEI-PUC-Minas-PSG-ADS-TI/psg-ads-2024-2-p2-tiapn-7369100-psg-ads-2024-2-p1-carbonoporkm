@@ -1,10 +1,6 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-
 ## 5.1. Divisão de Papéis
-
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
 
 ### Sprint 1
 - _Scrum master_: Pedro
@@ -27,8 +23,6 @@
 - Documentação: Matheus,Pedro,Felipe e Nitai
 
 ## 5.1. Quadro de tarefas
-
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
 
 ## Sprint 1
 
@@ -88,16 +82,15 @@ Atualizado em: 01/11/2024
 
 ## Sprint 4
 
-Atualizado em: 22/11/2024
+Atualizado em: 29/11/2024
 
 | Responsável | Tarefa/Requisito                                 | Iniciado em | Prazo      | Status | Terminado em    |
 | :----       |    :----                                         |      :----: | :----:     | :----: | :----:     |
 | Nitai       | Criar a interface de telas para o processo 1.    | 11/10/2024  | 08/11/2024 |  ✔️   | 08/11/2024 |
 | Nitai       | Criar a interface de telas para a home page.     | 08/11/2024  | 08/11/2024 |  ✔️   | 14/11/2024 |
-| Felipe      | Criar a interface de telas para o processo 2.    | 11/10/2024  | 08/11/2024 |  ✔️   | 22/11/2024 |
-| Pedro       | Criar a interface de telas para o processo 3.    | 11/10/2024  | 22/11/2024 |  ✔️   | 22/11/2024 |
-| Matheus     | Criar a interface de telas para o processo 4.    | 11/10/2024  | 22/11/2024 |  ✔️   | 22/11/2024 |
-| Carlos      | Criar a interface de telas para o processo 5.    | 11/10/2024  | 22/11/2024 |  ✔️   | 22/11/2024 |
+| Pedro       | Criar a interface de telas para o processo 2 e 3 | 11/10/2024  | 08/11/2024 |  ✔️   | 22/11/2024 |
+| Matheus     | Criar a interface de telas para o processo 4 e 5 | 11/10/2024  | 22/11/2024 |  ✔️   | 22/11/2024 |
+| Carlos      | Criar a interface de telas para o processo 6 e 7 | 11/10/2024  | 22/11/2024 |  ✔️   | 22/11/2024 |
 | Pedro       | Criar comandos de inserção nas tabelas           | 01/10/2024  | 08/11/2024 |  ✔️   | 16/11/2024 |
 | Pedro       | Criar exemplo de uso de tabelas 1                | 08/11/2024  | 08/11/2024 |  ✔️   | 20/11/2024 |
 | Theo        | Criar exemplo de uso de tabelas 2                | 08/11/2024  | 22/11/2024 |  ✔️   | 20/11/2024 |
