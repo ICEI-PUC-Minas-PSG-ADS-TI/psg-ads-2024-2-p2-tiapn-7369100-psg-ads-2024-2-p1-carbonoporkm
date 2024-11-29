@@ -8,22 +8,22 @@
 
 ### Sprint 1
 - _Scrum master_: Pedro
-- _Gerente de Projetos_:Nitai
+- _Gerente de Projetos_: Nitai
 - Documentação: Carlos,Matheus,Felipe e Theo
 
 ### Sprint 2
 - _Scrum master_: Nitai
-- _Gerente de Projetos_:Pedro
+- _Gerente de Projetos_: Pedro
 - Documentação: Carlos,Matheus,Felipe e Theo
 
 ### Sprint 3
 - _Scrum master_: Carlos
--  _Gerente de Projetos_:Theo
+-  _Gerente de Projetos_: Theo
 - Documentação: Matheus,Pedro,Felipe e Nitai
   
-- ### Sprint 2
+### Sprint 4
 - _Scrum master_: Theo
--  _Gerente de Projetos_:carlos
+-  _Gerente de Projetos_: Carlos
 - Documentação: Matheus,Pedro,Felipe e Nitai
 
 ## 5.1. Quadro de tarefas
