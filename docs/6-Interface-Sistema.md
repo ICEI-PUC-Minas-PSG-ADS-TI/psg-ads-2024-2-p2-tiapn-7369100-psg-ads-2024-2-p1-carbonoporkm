@@ -100,3 +100,9 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 - A quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem, **onde ID_Usuario não é nulo**. Quantidade de meses é adquirida pela formula: Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12)
 - Para usuários que possuem conta 
 
+
+![AS-IS](./images/Grafico.png)
+
+## 6.1.5. Telas do processo 5
+
+
