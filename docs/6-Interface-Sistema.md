@@ -101,8 +101,8 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 - Para usuários que possuem conta 
 
 
-## Grafico 
-![AS-IS](./images/Grafico.png)
+## Graficos 
+![AS-IS](./images/G1.png)
 
 
 
