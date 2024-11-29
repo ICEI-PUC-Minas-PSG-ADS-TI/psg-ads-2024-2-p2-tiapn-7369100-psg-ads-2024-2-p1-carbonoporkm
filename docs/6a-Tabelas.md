@@ -111,5 +111,29 @@ ORDER BY 3 DESC, 2 DESC
 ```
 ![Tabela](images/6.Exemplo4.png)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Chart</title>
+</head>
+<body>
+    <div class="infogram-embed" data-id="d165b3c4-981b-40d9-9c0a-ddb5bee7b04d" data-type="interactive" data-title="Column Chart"></div>
+    <script>
+        !function(e,n,i,s){
+            var d="InfogramEmbeds";
+            var o=e.getElementsByTagName(n)[0];
+            if(window[d]&&window[d].initialized)
+                window[d].process&&window[d].process();
+            else if(!e.getElementById(i)){
+                var r=e.createElement(n);
+                r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)
+            }
+        }(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+    </script>
+    <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+        <a href="https://infogram.com/d165b3c4-981b-40d9-9c
+
 
 
