@@ -102,7 +102,7 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 
 
 ## Graficos 
-![AS-IS](./images/G1.png)
+![AS-IS](./images/g1.png)
 
 
 
