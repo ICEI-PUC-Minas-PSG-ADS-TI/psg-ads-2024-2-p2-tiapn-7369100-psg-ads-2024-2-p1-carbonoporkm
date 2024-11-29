@@ -101,8 +101,9 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 - Para usuários que possuem conta 
 
 
+## Grafico 
 ![AS-IS](./images/Grafico.png)
 
-## 6.1.5. Telas do processo 5
+
 
 
