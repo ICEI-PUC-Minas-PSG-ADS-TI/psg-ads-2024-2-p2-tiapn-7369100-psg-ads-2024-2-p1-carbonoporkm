@@ -61,44 +61,44 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 # 6.2 Indicadores
 
 ## Doações feitas por viagem Geral
+- Objetivo: Visualizar o quão incentivados a doar os usuários são após realizar um calculo de viagem
 - Medida: Porcentagem
-- Prioridade de cálculo: ??
-- Responsável: Administrador do site
+- Periodicidade de cálculo: Mensal
+- Responsável: Dono do site
 - Fórmula: # total de doações / # total de viagens
-- Realizar mensalmente por 4 meses
 - Variáveis: Quantidade total de doações, Quantidade total de viagens
 - O total de doações pode ser adquirido através do comando COUNT(DISTINCT ID_Doacao) com a tabela Doacao; E a quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem
-- Para qualquer usuário
+- Usuário de destino: Dono do site
 
 ## Média de Tráfego geral
-- Medida: Quantidade de viagens por mês
-- Prioridade de cálculo: ??
-- Responsável: Administrador do site
+- Objetivo: Visualizar quantos usuários utilizam efetivamente a ferramenta, para verificar a viabilidade do site.
+- Medida: Média de quantidade total de viagens por mês
+- Periodicidade de cálculo: Semestral
+- Responsável: Dono do site
 - Fórmula: # total de viagens/(Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12))
-- Realizar mensalmente por um ano
 - Variáveis: # de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
 - A quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem. Quantidade de meses é adquirida pela formula: (Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12)
-- Para qualquer usuário
+- Usuário de destino: Dono do site
 
 ## Doações feitas por viagem para usuários logados
+- Objetivo: Visualizar o quão incentivados a doar os usuários registrados são após realizar um calculo de viagem.
 - Medida: Porcentagem
-- Prioridade de cálculo: ??
-- Responsável: Administrador do site
+- Periodicidade de cálculo: Mensal
+- Responsável: Dono do site
 - Fórmula: # total de doações de usuários logados / # total de viagens de usuários logados
-- Realizar mensalmente por 4 meses
 - Variáveis: Quantidade total de doações, Quantidade total de viagens
 - O total de doações pode ser adquirido através do comando COUNT(DISTINCT ID_Doacao) com a tabela Doacao, **onde ID_Usuario não é nulo**; E a quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem, **onde ID_Usuario não é nulo**
-- Para usuários que possuem conta
+- Usuário de destino: Dono do site
 
 ## Média de Tráfego geral para usuários logados
-- Medida: Quantidade de viagens por mês
-- Prioridade de cálculo: ??
-- Responsável: Administrador do site
+- Objetivo: Visualizar quantos usuários registrados utilizam efetivamente a ferramenta, para verificar a viabilidade do site
+- Medida: Média de quantidade de viagens por mês
+- Periodicidade de cálculo: Semestral
+- Responsável: Dono do site
 - Fórmula: # total de viagens de usuários logados/(Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12))
-- Realizar mensalmente por um ano
 - Variáveis: Quantidade distinta de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
 - A quantidade total de viagens pode ser adquirida através do comando COUNT(DISTINCT ID_Viagem) com a tabela Viagem, **onde ID_Usuario não é nulo**. Quantidade de meses é adquirida pela formula: Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12)
-- Para usuários que possuem conta 
+- Usuário de destino: Dono do site
 
 
 ## Graficos 
