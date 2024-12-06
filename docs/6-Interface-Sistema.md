@@ -73,7 +73,7 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 ## Média de Tráfego geral
 - Objetivo: Visualizar quantos usuários utilizam efetivamente a ferramenta, para verificar a viabilidade do site.
 - Medida: Média de quantidade total de viagens por mês
-- Periodicidade de cálculo: Semestral
+- Periodicidade de cálculo: Trimestral
 - Responsável: Dono do site
 - Fórmula: # total de viagens/(Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12))
 - Variáveis: # de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
@@ -93,7 +93,7 @@ Nesta página, após selecionar a instituição que tem interesse em fazer uma d
 ## Média de Tráfego geral para usuários logados
 - Objetivo: Visualizar quantos usuários registrados utilizam efetivamente a ferramenta, para verificar a viabilidade do site
 - Medida: Média de quantidade de viagens por mês
-- Periodicidade de cálculo: Semestral
+- Periodicidade de cálculo: Trimestral
 - Responsável: Dono do site
 - Fórmula: # total de viagens de usuários logados/(Mês atual - Mês de inicio + ((Ano atual - Ano de inicio)*12))
 - Variáveis: Quantidade distinta de viagens armazenado no banco de dados, quantidade de meses em que o site está no ar
