@@ -59,12 +59,13 @@ Para se cadastrar no site, a fim de obter acesso à seus resultados anteriores e
 #### Detalhamento das atividades:
 Será feito o cálculo da pegada de carbono e como o usuário está sem o login não irá se salvar o resultado somente mostrar na tela 
 
- #### Atividade 1: Preencher os Campos
+ #### Atividade 1: Inserir local de origem, destino e o tipo de veículo
 
-| Campo           | Tipo de Dado       | Restrições          | Valor Default |
-| --------------- | ------------------ | ------------------- | ------------- |
-| Distância       | Número (decimal)   | Somente um valor    | Null          |
-| Tipo de veículo | Lista com veículos | Somente uma escolha | Null          |
+| Campo           | Tipo de Dado       | Restrições            | Valor Default |
+| --------------- | ------------------ | -------------------   | ------------- |
+| Local de origem | Caixa de texto     | máximo 100 caracteres | Null          |
+| Local de destino| Caixa de texto     | máximo 100 caracteres | Null          |
+| Tipo de veículo | Lista com veículos | Somente uma escolha   | Null          |
 
 | Comandos  | Destinos                     | Tipo    |
 | :-------: | :--------------------------: | :-----: |
@@ -85,12 +86,13 @@ Será feito o cálculo da pegada de carbono e como o usuário está sem o login 
 |-----------------|--------------------------------|---------|
 | Fazer login     | Usuário faz login no sistema   | default |
 
-#### Atividade 2: Inserir a distância percorrida e o tipo de veículo
+#### Atividade 2: Inserir local de origem, destino e o tipo de veículo
 
-| Campo           | Tipo de Dado       | Restrições          | Valor Default |
-|-----------------|--------------------|---------------------|---------------|
-| Distância       | Número (decimal)   | Somente um valor    |               |
-| Tipo de veículo | Lista com veículos | Somente uma escolha |               |
+| Campo           | Tipo de Dado       | Restrições            | Valor Default |
+| --------------- | ------------------ | -------------------   | ------------- |
+| Local de origem | Caixa de texto     | máximo 100 caracteres | Null          |
+| Local de destino| Caixa de texto     | máximo 100 caracteres | Null          |
+| Tipo de veículo | Lista com veículos | Somente uma escolha   | Null          |
 
 | Comandos | Destinos                       | Tipo    |
 |----------|--------------------------------|---------|
