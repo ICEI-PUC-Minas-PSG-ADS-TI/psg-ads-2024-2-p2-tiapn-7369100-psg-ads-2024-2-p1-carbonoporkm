@@ -22,7 +22,7 @@ A plataforma CarbonoPorKM foi concebida para promover a conscientização ambien
 ## 4.1. Arquitetura da solução
 
 - **Páginas Web (HTML + CSS + JS):** Parte do front-end, representando o que os usuários interagem no navegador.
-- **Local Storage:** Armazenamento local usado para guardar dados como canais, comentários e preferências diretamente no navegador do usuário.
+- **MySQL:** Armazenamento usado para guardar os usuários, viagens, doações, etc.
 - **Hospedagem (Netlify.app):** Serviço de deploy para hospedar o site.
 - **NewsAPI:** API usada para buscar notícias em tempo real. Inclui tecnologias como:
   - Bootstrap: Framework CSS para facilitar o design responsivo.
