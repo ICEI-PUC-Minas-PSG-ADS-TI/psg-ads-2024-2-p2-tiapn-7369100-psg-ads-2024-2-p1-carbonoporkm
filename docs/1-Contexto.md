@@ -1,6 +1,6 @@
 # 1. Introdução
 
-O site CarbonoPorKM é uma ferramenta que informa ao usuário o valor de sua pegada de carbono, referente ao transporte rodoviário, a partir da distância que percorre entre dois pontos, diariamente. A partir disto, serão dadas sugestões ao usuário sobre o que se pode fazer para diminuir este valor, seja alterando algo em sua rotina ou fazendo uma caridade a um fundo relacionado à mudança climática.
+O site CarbonoPorKM é uma ferramenta que informa ao usuário o valor de sua pegada de carbono, referente ao transporte rodoviário, a partir da distância que percorre entre dois pontos, diariamente. A partir disto, serão dadas sugestões ao usuário sobre o que se pode fazer para diminuir este valor, seja alterando algo em sua rotina ou fazendo uma caridade a um fundo relacionado à mudança climática. Este projeto se basea no artigo 13.3 da ODS.
 
 ## 1.1 Contextualização
 
