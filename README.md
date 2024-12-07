@@ -48,6 +48,9 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 
 ## Histórico de versões
+* 0.2.3
+    * Ajuste de algumas inconsistências
+    * Adição do documento Apresentação.
 * 0.2.2
     * Adição de 4 Indicadores no documento 6. Interface do sistema
 * 0.2.1
